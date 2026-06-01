@@ -4,7 +4,7 @@
 @charset "utf-8";
 
 // Example Defaults
-// $base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: Helvetica, Arial, sans-serif;
 // $base-font-size:   16px;
 // $small-font-size:  $base-font-size * 0.875;
 // $base-line-height: 1.5;
@@ -33,12 +33,244 @@
 //     }
 // }
 
-// variables.less
-$theme-primary: #F05F40;
-$theme-dark: #222;
+// Brand Colors matching brand.pdf
+$brand-dark: #242a38;         // Deep Dark Slate Blue (Cover/Page 2 Background)
+$brand-accent: #89afad;       // Sage Green / Light Teal (Cover details/Lines/Headers)
+$brand-accent-dark: #4c7371;  // Accessible Dark Sage Teal for links on light backgrounds (WCAG AA compliant)
+$brand-light: #fdfcfc;        // Warm Near-White (Page 3/4 Background)
+$text-dark: #242a38;          // Charcoal Navy for high readability on light backgrounds
+$text-light: #ffffff;         // White for dark backgrounds
+$brand-accent-light: #edf3f2;  // Light soft sage tone for card backgrounds
+
+$theme-primary: $brand-accent;
+$theme-dark: $brand-dark;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "mixins",
         "base"
 ;
+
+
+a {
+    color: $brand-accent-dark;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    &:hover,
+    &:focus {
+        color: darken($brand-accent-dark, 10%);
+    }
+}
+
+// Ensure high contrast for links inside dark backgrounds
+.bg-dark a,
+header a,
+.call-to-action a,
+.short-header a,
+.news-date a {
+    color: $brand-accent;
+    &:hover,
+    &:focus {
+        color: lighten($brand-accent, 10%);
+    }
+}
+
+
+.bg-dark .section-heading,
+.call-to-action .section-heading {
+    color: white !important;
+}
+
+
+.partner-logo {
+    max-height: 50px;
+    filter: brightness(0) invert(1); // Forces logos to pure white
+    opacity: 0.5; // Softens them against the dark background
+    transition: all 0.3s ease;
+
+    &:hover {
+        filter: none; // Restores original colors on hover
+        opacity: 1;
+    }
+}
+
+// Updates Cards & Section
+.update-card {
+    background-color: white;
+    border: 1px solid rgba($brand-accent, 0.08);
+    border-radius: 16px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01), 0 10px 20px rgba(0, 0, 0, 0.02);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 40px); // subtract margins
+    min-height: 250px;
+    width: 100%;
+    
+    &:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 15px 30px rgba($brand-accent, 0.06), 0 20px 40px rgba(0, 0, 0, 0.04);
+        border-color: rgba($brand-accent, 0.2);
+        
+        .update-title a {
+            color: $brand-accent-dark;
+        }
+    }
+    
+    .update-card-body {
+        padding: 30px 25px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    
+    .update-date {
+        font-family: 'Outfit', sans-serif;
+        color: $brand-accent;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 12px;
+    }
+    
+    .update-title {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 15px;
+        line-height: 1.4;
+        
+        a {
+            color: $brand-dark;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            
+            &:hover {
+                color: $brand-accent-dark;
+            }
+        }
+    }
+    
+    .update-excerpt {
+        color: rgba($text-dark, 0.75);
+        font-size: 15px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        flex-grow: 1;
+    }
+    
+    .read-more {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: $brand-accent-dark;
+        display: inline-flex;
+        align-items: center;
+        align-self: flex-start;
+        margin-top: auto;
+        
+        i {
+            margin-left: 5px;
+            transition: transform 0.2s ease;
+        }
+        
+        &:hover i {
+            transform: translateX(3px);
+        }
+    }
+}
+
+// Full page width update article layout on index
+.update-article {
+    background-color: white;
+    border: 1px solid rgba($brand-accent, 0.08);
+    border-radius: 16px;
+    padding: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01), 0 10px 20px rgba(0, 0, 0, 0.02);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: 100%;
+    
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 24px rgba($brand-accent, 0.06), 0 16px 32px rgba(0, 0, 0, 0.04);
+        border-color: rgba($brand-accent, 0.2);
+        
+        .update-heading a {
+            color: $brand-accent-dark;
+        }
+    }
+    
+    .update-meta {
+        font-family: 'Outfit', sans-serif;
+        color: $brand-accent;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 12px;
+    }
+    
+    .update-heading {
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 15px;
+        line-height: 1.3;
+        
+        a {
+            color: $brand-dark;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            
+            &:hover {
+                color: $brand-accent-dark;
+            }
+        }
+    }
+    
+    .update-content-excerpt {
+        font-size: 16px;
+        line-height: 1.7;
+        color: rgba($text-dark, 0.85);
+        margin-bottom: 25px;
+    }
+}
+
+// Subpage short header style
+header.short-header {
+    min-height: auto;
+    padding: 140px 0 60px;
+    text-align: center;
+    background: radial-gradient(circle at 50% 120%, rgba($brand-accent, 0.15) 0%, rgba($brand-dark, 0) 70%), $brand-dark;
+    
+    .header-title-stacked {
+        font-size: 36px !important;
+        letter-spacing: -1px;
+        margin: 0;
+        @media (min-width: 768px) {
+            font-size: 48px !important;
+            letter-spacing: -1.5px;
+        }
+    }
+    
+    .header-divider {
+        margin: 25px auto 0;
+    }
+}
+
+// Accessibility: navbar link contrast on light backgrounds (collapsed navbar or scrolled white affix navbar)
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus,
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li.active > a,
+.navbar-default.affix .navbar-header .navbar-brand:hover,
+.navbar-default.affix .navbar-header .navbar-brand:focus,
+.navbar-default.affix .nav > li > a:hover {
+    color: $brand-accent-dark !important;
+}

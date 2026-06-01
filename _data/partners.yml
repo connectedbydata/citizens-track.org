@@ -1,0 +1,52 @@
+- name: "Global Citizens' Assembly"
+  url: "https://globalassemblies.org/"
+  logo: "img/logo/globalassembly.svg"
+
+- name: "Connected by Data"
+  url: "https://connectedbydata.org"
+  logo: "img/logo/cbd.png"
+
+- name: "PAIRS"
+  url: "https://pairs.site"
+  logo: "img/logo/pairs.webp"
+
+- name: "Ada Lovelace Institute"
+  url: "https://adalovelaceinstitute.org/"
+  logo: "img/logo/adalovelace.png"
+
+- name: "University of Sheffield | Centre for Machine Intelligence"
+  url: "https://sheffield.ac.uk/machine-intelligence"
+  logo: "img/logo/cmi.png"
+
+- name: "Odyssean Institute"
+  url: "https://www.odysseaninstitute.org/"
+  logo: "img/logo/odyssean.png"
+
+- name: "Ugandan Women in AI"
+  url: "https://www.uwiai.org/"
+  logo: "img/logo/UWAI.png"
+
+- name: "Digital Empowerment Foundation"
+  url: "https://www.defindia.org"
+  logo: "img/logo/def.png"
+
+- name: "CDAC Network"
+  url: "https://www.cdacnetwork.org"
+  logo: "img/logo/cdac.png"
+
+- name: "Missions Publiques"
+  url: "https://missionspubliques.org"
+  logo: "img/logo/missionspubliques.png"
+
+- name: "Aapti Institute"
+  url: "https://www.aapti.in"
+  logo: "img/logo/aapti.png"
+
+- name: "ISWE Foundation"
+  url: "https://example.com"
+  logo: "img/logo/iswe.webp" # Replace with your actual logo paths
+
+
+# Add as many partners as you'd like!
+
+

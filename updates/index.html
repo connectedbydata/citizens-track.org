@@ -1,0 +1,39 @@
+---
+layout: archive
+title: Campaign Updates
+---
+
+<section class="bg-light" style="padding: 80px 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                {% for post in site.posts %}
+                <article class="update-article">
+                    <div class="update-meta">
+                        {{ post.date | date: "%B %d, %Y" }}
+                        {% if post.author %}
+                        &bull; by 
+                        {% if post.author_url %}
+                        <a href="{{ post.author_url }}" target="_blank" style="color: inherit; text-decoration: underline;">{{ post.author }}</a>
+                        {% else %}
+                        {{ post.author }}
+                        {% endif %}
+                        {% endif %}
+                    </div>
+                    <h2 class="update-heading">
+                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                    </h2>
+                    <div class="update-content-excerpt">
+                        {{ post.excerpt | strip_html | truncatewords: 50 }}
+                    </div>
+                    <a href="{{ post.url | relative_url }}" class="btn btn-default">Read Full Post <i class="fa fa-angle-right" style="margin-left: 5px;"></i></a>
+                </article>
+                {% else %}
+                <div class="text-center">
+                    <p>No updates yet. Stay tuned!</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

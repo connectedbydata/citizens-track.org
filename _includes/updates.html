@@ -1,0 +1,38 @@
+<section id="updates" class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Campaign Updates</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="display: flex; flex-wrap: wrap;">
+            {% for post in site.posts limit:3 %}
+            <div class="col-lg-4 col-md-6" style="display: flex; margin-bottom: 30px;">
+                <div class="update-card">
+                    <div class="update-card-body">
+                        <div class="update-date">
+                            {{ post.date | date: "%B %d, %Y" }}
+                        </div>
+                        <h3 class="update-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+                        <p class="update-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+                        <a href="{{ post.url | relative_url }}" class="read-more">Read More <i
+                                class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            {% else %}
+            <div class="col-lg-12 text-center">
+                <p>No updates yet. Stay tuned!</p>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="row text-center" style="margin-top: 30px;">
+            <div class="col-lg-12">
+                <a href="{{ '/updates/' | relative_url }}" class="btn btn-default btn-xl">View All Updates</a>
+            </div>
+        </div>
+    </div>
+</section>
