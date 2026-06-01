@@ -7,9 +7,8 @@ title: Updates
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12">
-                {% assign current_time = site.time %}
-                {% assign event_posts = site.posts | where_exp:"item", "item.date <= current_time or item.type=='event'" %}
-                {% for post in event_posts %}
+
+                {% for post in site.posts %}
                 <article class=" update-article">
                     <div class="update-meta" style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
                         <span>{{ post.date | date: "%B %d, %Y" }}</span>
@@ -37,12 +36,12 @@ title: Updates
                     </div>
                     <a href="{{ post.url | relative_url }}" class="btn btn-default">Read Full Post <i
                             class="fa fa-angle-right" style="margin-left: 5px;"></i></a>
-                    </article>
-                    {% else %}
-                    <div class="text-center">
-                        <p>No updates yet. Stay tuned!</p>
-                    </div>
-                    {% endfor %}
+                </article>
+                {% else %}
+                <div class="text-center">
+                    <p>No updates yet. Stay tuned!</p>
+                </div>
+                {% endfor %}
             </div>
         </div>
     </div>
