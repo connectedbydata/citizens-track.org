@@ -11,8 +11,14 @@
           <div class="container">
               <div class="row">
                   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+                      {% if page.type == "event" %}
+                      <div style="margin-bottom: 15px;">
+                          <span class="event-tag-light">Event</span>
+                      </div>
+                      {% endif %}
                       <div class="news-date" style="color: {{ site.brand-accent | default: '#89afad' }}; font-family: 'Outfit', sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 15px;">
                           {{ page.date | date: "%B %d, %Y" }}
+
                           {% if page.author %}
                           <span style="opacity: 0.6; margin: 0 6px;">&bull;</span> by 
                           {% if page.author_url %}

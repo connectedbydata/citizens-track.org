@@ -1,5 +1,6 @@
 ---
 layout: post
+type: event
 title: "Towards a Citizens Track on AI Governance"
 date: 2026-04-23 09:00:00 +0100
 author: "Tim Davies"
