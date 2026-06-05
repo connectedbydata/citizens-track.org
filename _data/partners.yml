@@ -34,10 +34,6 @@
   url: "https://www.cdacnetwork.org"
   logo: "img/logo/cdac.png"
 
-- name: "Missions Publiques"
-  url: "https://missionspubliques.org"
-  logo: "img/logo/missionspubliques.png"
-
 - name: "Aapti Institute"
   url: "https://www.aapti.in"
   logo: "img/logo/aapti.png"
@@ -45,6 +41,10 @@
 - name: "ISWE Foundation"
   url: "https://example.com"
   logo: "img/logo/iswe.webp" # Replace with your actual logo paths
+
+# - name: "Missions Publiques"
+#  url: "https://missionspubliques.org"
+#  logo: "img/logo/missionspubliques.png"
 
 
 # Add as many partners as you'd like!
