@@ -79,6 +79,9 @@ Over the next fortnight we'll be doing more work to make sure the PAVE booth act
 
 </div>
 
+### Don't forget to add to the case book
+
+Thanks for reading this far. As a reminder, we're keen to make sure we have examples from all over the world in the case book - so if you've got a project that should be on the screens in our Expo space, [make sure you submit it soon!](https://forms.fillout.com/t/u7vQQNPRhpus).
 
 <style>
 .post-gallery {
