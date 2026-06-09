@@ -1,30 +1,32 @@
 ---
 layout: post
-title: "Case Book call extended: mapping participatory projects about AI"
+title: "Case book call extended: amplifying participatory projects about AI"
 date: 2026-06-05 16:00:00 +0100
 author: "Tim Davies"
 author_url: "https://connectedbydata.org/people/tim-davies"
 ---
 
-Over the last three weeks we’ve discovered over 50 examples of recent participatory public engagement involving over 18,000 participants from more than 20 countries sharing informed views on the future of Artificial Intelligence. We’ve heard about Citizens Assemblies and Juries, grassroots co-design, multi-country projects, online community projects and single-location deliberations. 
+Over the last three weeks we’ve received over 50 examples of recent participatory public engagement involving over 18,000 participants from more than 20 countries sharing informed views on the future of Artificial Intelligence. We’ve heard about Citizens Assemblies and Juries, grassroots co-design, multi-country projects, online community projects and single-location deliberations. 
 
-But we know we’ve only just scratched the surface. 
+But we know we’ve only just scratched the surface, which you can see in the map below. We need **your** **help** to **identify examples** of projects that demonstrate participatory, inclusive and impactful ways to bring citizen voices to the table in shaping AI. 
 
-With just four weeks until we have the first public release of the PAVE Case Book of Participatory AI Voice and Engagement projects at the AI for Good Expo in Geneva, we need your help to identify examples of projects that demonstrate participatory, inclusive and impactful ways to bring citizen voices to the table in shaping AI. 
+We are only  four weeks from the **first public release** of the PAVE Case Book of Participatory AI Voice and Engagement projects. This is happening online and at a number of in-person events in Geneva around the UN Global Dialogue.. including a dedicated stand for a four-day exhibition at AI for Good.  
 
-### **Nominate or submit a project to the case book**
+Nominate or submit a project to the case book
 
 [**Make your submission here**](https://forms.fillout.com/t/u7vQQNPRhpus).
 
-It takes just a few minutes to nominate a case (just share a URL and a few brief details), and adding a full case entry should take no more than an hour if you have project reports or details to hand. 
+It takes just a **few minutes to nominate a case** (just share a URL and a few brief details), and adding a full case entry should take no more than an hour if you have project reports or details to hand. 
 
-As the map below shows, so far we’ve more examples from Europe and North America than from Africa, Asia and Latin America \- but we know a lot of that is down to our biases in terms of networks, language and prior knowledge. So, we particularly welcome help circulating the call for cases to networks in these parts of the world. s
+As the map below shows, we are still more able to amplify examples from Europe and North America than from Africa, Asia and Latin America. 
+
+**We need help to redress this balance**, which reflects our biases in terms of networks, language and prior knowledge. Please do help circulating the call for cases to networks in these parts of the world. 
 
 We’re happy to accept submissions in any language (although we may have to rely on machine translation for some of our analysis for the first release in July).
 
 ![Map of participant locations, showing entries in 21 countries]({{site.baseurl}}/assets/posts/participants.png)
 
-### **Expanding the frame: robotics, self-driving vehicles, smart cities & wider deliberations**
+#### **Expanding the frame: robotics, self-driving vehicles, smart cities & wider deliberations**
 
 One of the things that’s become apparent from our early work is that much public participation about artificial intelligence is not always framed in terms of AI. 
 
@@ -32,7 +34,7 @@ We’re also interested in cases of participation and deliberation that generate
 
 ### **Visualising the case book**
 
-We’ve also been experimenting over the last week with ways of display case book entries. Throughout the week of the AI for Good Expo we’ll have a booth with a large screen, table computers and printed materials, so we’re building out:
+We’ve also been experimenting over the last week with ways of display case book entries. Throughout the week of the AI for Good, we will be exhibiting the casebook work on:  a large screen, table computers, tablets and printed materials, so we’re developing:
 
 * **Public Voices Slideshow \-** a way of displaying recommendations and quotes from public deliberations across the world, and highlighting key features of the participatory processes that led to them.
 
@@ -40,7 +42,7 @@ We’ve also been experimenting over the last week with ways of display case boo
 
 * **Case study browser** \- providing access to all the key details from the case book entries. 
 
-You can see some of the early prototypes we’ve been building below. Over the next week we'll be working on adding some of the new PAVE branding and design to this, and iterating on ways to present material. 
+You can see some of the early prototypes we’ve been building below.  Over the next week we'll be working on adding some of the new PAVE branding and design to this, and iterating on ways to present material. 
 
 <div class="post-gallery">
   <button class="gallery-thumb" data-full="{{ '/assets/posts/case.png' | relative_url }}" data-caption="Case study browser prototype">
