@@ -30,3 +30,7 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# Helper scripts and credentials
+helper_scripts/
+

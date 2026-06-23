@@ -39,14 +39,57 @@
   logo: "img/logo/aapti.png"
 
 - name: "ISWE Foundation"
-  url: "https://example.com"
-  logo: "img/logo/iswe.webp" # Replace with your actual logo paths
+  url: "https://iswe.org/"
+  logo: "img/logo/iswe.webp"
 
-# - name: "Missions Publiques"
-#  url: "https://missionspubliques.org"
-#  logo: "img/logo/missionspubliques.png"
+- name: "Global Coalition for Inclusive AI"
+  url: "www.global-ai-dialogue.org"
+  logo: "img/logo/global-coalition-for-inclusive-ai.png"
 
+- name: "Centre for AI and Multidiscipline Solutions in Africa (CAIMSA)"
+  url: "#"
+  logo: "img/logo/centre-for-ai-and-multidiscipline-solutions-in-africa-caimsa.png"
 
-# Add as many partners as you'd like!
+- name: "Dialogue on Technology Project"
+  url: "https://www.sfu.ca/dialogue/what-we-do/initiatives/dot.html"
+  logo: "img/logo/dialogue-on-technology-project.png"
 
+- name: "GWU and NSF-NIST TRAILS"
+  url: "#"
+  logo: "img/logo/gwu-and-nsf-nist-trails.png"
 
+- name: "AI & Democracy Foundation"
+  url: "https://ai-democracy.org"
+  logo: "img/logo/ai-democracy-foundation.png"
+
+- name: "Deliberativa"
+  url: "https://deliberativa.org"
+  logo: "img/logo/deliberativa.png"
+
+- name: "Our AI Collective"
+  url: "www.our-ai-collective.info"
+  logo: "img/logo/our-ai-collective.png"
+
+- name: "Youth AI Governance Forum (YAIGF)"
+  url: "https://yaigf.org/"
+  logo: "img/logo/youth-ai-governance-forum-yaigf.png"
+
+- name: "Ciudadanía Inteligente"
+  url: "https://ciudadaniai.org/"
+  logo: "img/logo/ciudadania-inteligente.png"
+
+- name: "The Bloom Project"
+  url: "https://bloom-project.org/"
+  logo: "img/logo/the-bloom-project.png"
+
+- name: "Women at the Table / <A+> Alliance Inclusive Algorithms / AI & Equality Initiative"
+  url: "https://www.womenatthetable.net/"
+  logo: "img/logo/women-at-the-table-a-alliance-inclusive-algorithms-ai-equality-initiative.png"
+
+- name: "Global AI Dialogues"
+  url: "https://linktr.ee/aidialogues"
+  logo: "img/logo/global-ai-dialogues.png"
+
+- name: "The Data Tank"
+  url: "https://www.datatank.org"
+  logo: "img/logo/the-data-tank.png"
