@@ -306,3 +306,15 @@ header.short-header {
 .navbar-default.affix .nav > li > a:hover {
     color: $brand-accent-dark !important;
 }
+
+// Post content body styling
+.post-body {
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        border-radius: 8px;
+    }
+}
+
