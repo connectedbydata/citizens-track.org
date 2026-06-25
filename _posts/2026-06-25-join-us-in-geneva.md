@@ -6,9 +6,9 @@ author: "Tim Davies"
 author_url: "https://connectedbydata.org/people/tim-davies"
 ---
 
-![Flyer for events]({{site.baseurl}}/assets/posts/GenevaEvents.png)
+The Citizens' Track and [PAIRS](https://pairs.site) teams will be in Geneva from 6th - 10th July, for the UN Global Dialogue on AI Governance, AI for Good, and WSIS events. 
 
-The Citizens' Track and [PAIRS](https://pairs.site) teams will be atin Geneva from 6th - 10th July, for the UN Global Dialogue on AI Governance, AI for Good, and WSIS events. 
+![Flyer for events]({{site.baseurl}}/assets/posts/GenevaEvents.png)
 
 ## All week - 7th - 10th July in the AI for Good Expo
 
