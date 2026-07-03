@@ -12,3 +12,9 @@ github_username:
 markdown: kramdown
 future: true
 
+collections:
+  resources:
+    output: true
+    permalink: /:year/:slug/
+
+

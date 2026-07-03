@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+    {% include nav.html %}
+
+    <header class="short-header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+                        <div class="news-date"
+                            style="color: {{ site.brand-accent | default: '#89afad' }}; font-family: 'Outfit', sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 15px;">
+                            Resource &bull; {{ page.date | date: "%B %d, %Y" }}
+                        </div>
+                        <h1 class="header-title-stacked" style="font-size: 38px; line-height: 1.2; text-shadow: none;">
+                            {{ page.title }}</h1>
+                        <hr class="header-divider">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <article class="post-content-section" style="padding: 80px 0; background-color: #fdfcfc;">
+        <div class="container">
+            {% assign has_metadata = false %}
+            {% if page.resource_url or page.doi or page.authors or page.contributors %}
+                {% assign has_metadata = true %}
+            {% endif %}
+
+            {% if has_metadata %}
+            <div class="row">
+                <div class="col-md-8 col-lg-8">
+                    <div class="post-body" style="font-size: 16px; line-height: 1.8; color: #242a38;">
+                        {{ content }}
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <div class="resource-meta-card" style="background-color: #edf3f2; border: 1px solid rgba(137, 175, 173, 0.25); border-radius: 16px; padding: 30px; margin-top: 10px; margin-bottom: 30px; font-family: 'Outfit', sans-serif; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01), 0 10px 20px rgba(0, 0, 0, 0.02);">
+                        <h3 style="margin-top: 0; margin-bottom: 20px; font-size: 18px; font-weight: 700; color: #242a38; border-bottom: 2px solid rgba(137, 175, 173, 0.3); padding-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px;">Metadata</h3>
+                        
+                        <div class="meta-item" style="margin-bottom: 20px;">
+                            <span style="display: block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #89afad; margin-bottom: 5px;">Published</span>
+                            <span style="font-size: 15px; color: #242a38; font-weight: 500;">{{ page.date | date: "%B %d, %Y" }}</span>
+                        </div>
+
+                        {% if page.authors and page.authors.size > 0 %}
+                        <div class="meta-item" style="margin-bottom: 20px;">
+                            <span style="display: block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #89afad; margin-bottom: 5px;">{% if page.authors.size > 1 %}Authors{% else %}Author{% endif %}</span>
+                            <ul style="list-style: none; padding-left: 0; margin-bottom: 0; font-size: 15px; color: #242a38; font-weight: 500;">
+                                {% for author in page.authors %}
+                                <li style="margin-bottom: 4px; display: flex; align-items: center; gap: 8px;">
+                                    <i class="fa fa-user" style="color: #4c7371; font-size: 13px;"></i> <span>{{ author }}</span>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+
+                        {% if page.contributors and page.contributors.size > 0 %}
+                        <div class="meta-item" style="margin-bottom: 20px;">
+                            <span style="display: block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #89afad; margin-bottom: 5px;">{% if page.contributors.size > 1 %}Contributors{% else %}Contributor{% endif %}</span>
+                            <ul style="list-style: none; padding-left: 0; margin-bottom: 0; font-size: 15px; color: #242a38; font-weight: 500;">
+                                {% for contributor in page.contributors %}
+                                <li style="margin-bottom: 4px; display: flex; align-items: center; gap: 8px;">
+                                    <i class="fa fa-users" style="color: #4c7371; font-size: 13px;"></i> <span>{{ contributor }}</span>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+
+                        {% if page.doi %}
+                        <div class="meta-item" style="margin-bottom: 20px;">
+                            <span style="display: block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #89afad; margin-bottom: 5px;">DOI</span>
+                            <span style="font-size: 14px; word-break: break-all;">
+                                <a href="https://doi.org/{{ page.doi }}" target="_blank" style="color: #4c7371; font-weight: 500; text-decoration: underline;">
+                                    <i class="fa fa-external-link" style="font-size: 11px; margin-right: 3px;"></i> {{ page.doi }}
+                                </a>
+                            </span>
+                        </div>
+                        {% endif %}
+
+                        {% if page.resource_url %}
+                        <div style="margin-top: 30px;">
+                            <a href="{{ page.resource_url }}" target="_blank" class="btn btn-primary btn-block text-center" style="display: block; width: 100%; box-sizing: border-box; text-decoration: none;">
+                                <i class="fa fa-external-link" style="margin-right: 8px;"></i> Access Resource
+                            </a>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% else %}
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-body" style="font-size: 16px; line-height: 1.8; color: #242a38;">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            <div class="row" style="margin-top: 40px;">
+                <div class="col-lg-8 {% if has_metadata == false %}col-lg-offset-2{% endif %} col-md-10">
+                    <hr style="margin: 30px 0; border-color: rgba(0,0,0,0.06); border-width: 1px;">
+                    <div class="post-navigation">
+                        <a href="{{ '/' | relative_url }}" class="btn btn-default"><i
+                                class="fa fa-angle-left"></i> Back to Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    {% include footer.html %}
+    {% include scripts.html %}
+</body>
+
+</html>
