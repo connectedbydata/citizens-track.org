@@ -382,3 +382,83 @@ header.short-header {
     }
 }
 
+// Supporters Carousel & Grid expansion
+#partnerCarousel {
+    transition: all 0.5s ease;
+    
+    .carousel-inner {
+        transition: max-height 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+        max-height: 140px; // Default height for 1 slide/row on desktop
+        
+        @media (max-width: 767px) {
+            max-height: 200px; // Slightly larger for 2 columns / wrapping on mobile
+        }
+    }
+    
+    &.expanded {
+        .carousel-inner {
+            max-height: 2500px; // Expand to fit all rows
+            padding: 30px 40px; // Generous padding for the expanded grid view
+        }
+        
+        .carousel-inner > .item {
+            display: block !important;
+            opacity: 1 !important;
+            position: relative !important;
+            left: 0 !important;
+            transform: none !important;
+            float: none !important;
+            width: 100% !important;
+            margin-bottom: 25px !important; // Add more spacing between rows of logos
+            animation: fadeInSupporterRow 0.6s ease forwards;
+        }
+        
+        .carousel-control {
+            opacity: 0 !important;
+            pointer-events: none !important;
+        }
+    }
+}
+
+@keyframes fadeInSupporterRow {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+// Light "View all" toggle link under "Supporters" heading
+.view-all-partners-toggle-top {
+    font-family: 'Outfit', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: rgba(255, 255, 255, 0.5) !important;
+    text-decoration: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 5px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    display: inline-block;
+    background-color: transparent;
+    line-height: 1.5;
+    
+    &:hover {
+        color: white !important;
+        border-color: rgba(255, 255, 255, 0.4);
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+    
+    &.active {
+        color: $brand-accent !important;
+        border-color: rgba($brand-accent, 0.4);
+        background-color: rgba($brand-accent, 0.08);
+    }
+}
+

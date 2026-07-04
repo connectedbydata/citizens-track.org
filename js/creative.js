@@ -45,4 +45,45 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
+    // Toggle View All Supporters Grid inside the scroller area
+    $('#toggleAllPartners').click(function(e) {
+        e.preventDefault();
+        var $carousel = $('#partnerCarousel');
+        var $btn = $(this);
+        
+        if ($carousel.hasClass('expanded')) {
+            $carousel.removeClass('expanded');
+            $btn.removeClass('active');
+            $btn.text('View all');
+            
+            // Resume autoplay
+            $carousel.carousel({
+                interval: 10000
+            }).carousel('cycle');
+            
+            // Smoothly scroll back to the partners section header if scrolled past
+            var targetOffset = $('#partners').offset().top;
+            if ($(window).scrollTop() > targetOffset) {
+                $('html, body').animate({
+                    scrollTop: targetOffset
+                }, 600, 'easeInOutExpo');
+            }
+        } else {
+            $carousel.addClass('expanded');
+            $btn.addClass('active');
+            $btn.text('View carousel');
+            
+            // Pause autoplay when expanded
+            $carousel.carousel('pause');
+            
+            // Smoothly scroll down to make the expanded logos visible
+            var carouselOffset = $carousel.offset().top - 100;
+            if ($(window).scrollTop() < carouselOffset) {
+                $('html, body').animate({
+                    scrollTop: carouselOffset
+                }, 600, 'easeInOutExpo');
+            }
+        }
+    });
+
 })(jQuery); // End of use strict

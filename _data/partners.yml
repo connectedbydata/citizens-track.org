@@ -18,25 +18,22 @@
   url: "https://sheffield.ac.uk/machine-intelligence"
   logo: "img/logo/cmi.png"
 
-- name: "Odyssean Institute"
-  url: "https://www.odysseaninstitute.org/"
-  logo: "img/logo/odyssean.png"
+- name: "Aapti Institute"
+  url: "https://www.aapti.in"
+  logo: "img/logo/aapti.png"
 
-- name: "Ugandan Women in AI"
-  url: "https://www.uwiai.org/"
-  logo: "img/logo/UWAI.png"
+- name: "NIYEL"
+  url: "https://niyel.net/"
+  logo: "img/logo/niyel.png"
+
+- name: "Coalition for the UN We Need (C4UN)"
+  url: "https://c4unwn.org/"
+  logo: "img/logo/coalition-for-the-un-we-need-c4un.png"
+
 
 - name: "Digital Empowerment Foundation"
   url: "https://www.defindia.org"
   logo: "img/logo/def.png"
-
-- name: "CDAC Network"
-  url: "https://www.cdacnetwork.org"
-  logo: "img/logo/cdac.png"
-
-- name: "Aapti Institute"
-  url: "https://www.aapti.in"
-  logo: "img/logo/aapti.png"
 
 - name: "ISWE Foundation"
   url: "https://iswe.org/"
@@ -45,18 +42,6 @@
 - name: "Global Coalition for Inclusive AI"
   url: "www.global-ai-dialogue.org"
   logo: "img/logo/global-coalition-for-inclusive-ai.png"
-
-- name: "Centre for AI and Multidiscipline Solutions in Africa (CAIMSA)"
-  url: "#"
-  logo: "img/logo/centre-for-ai-and-multidiscipline-solutions-in-africa-caimsa.png"
-
-- name: "Dialogue on Technology Project"
-  url: "https://www.sfu.ca/dialogue/what-we-do/initiatives/dot.html"
-  logo: "img/logo/dialogue-on-technology-project.png"
-
-- name: "GWU and NSF-NIST TRAILS"
-  url: "#"
-  logo: "img/logo/gwu-and-nsf-nist-trails.png"
 
 - name: "AI & Democracy Foundation"
   url: "https://ai-democracy.org"
@@ -69,6 +54,43 @@
 - name: "Our AI Collective"
   url: "www.our-ai-collective.info"
   logo: "img/logo/our-ai-collective.png"
+
+- name: "Global AI Dialogues"
+  url: "https://linktr.ee/aidialogues"
+  logo: "img/logo/global-ai-dialogues.png"
+
+- name: "The Data Tank"
+  url: "https://www.datatank.org"
+  logo: "img/logo/the-data-tank.png"
+
+- name: "SciencesPo PSIA Tech & Global Affairs Innovation Hub"
+  url: "https://www.sciencespo.fr/psia-innovation-hub/"
+  logo: "img/logo/sciencespo-psia-tech-global-affairs-innovation-hub.png"
+
+
+- name: "Odyssean Institute"
+  url: "https://www.odysseaninstitute.org/"
+  logo: "img/logo/odyssean.png"
+
+- name: "Ugandan Women in AI"
+  url: "https://www.uwiai.org/"
+  logo: "img/logo/UWAI.png"
+
+- name: "CDAC Network"
+  url: "https://www.cdacnetwork.org"
+  logo: "img/logo/cdac.png"
+
+- name: "Centre for AI and Multidiscipline Solutions in Africa (CAIMSA)"
+  url: "#"
+  logo: "img/logo/centre-for-ai-and-multidiscipline-solutions-in-africa-caimsa.png"
+
+- name: "Dialogue on Technology Project"
+  url: "https://www.sfu.ca/dialogue/what-we-do/initiatives/dot.html"
+  logo: "img/logo/dialogue-on-technology-project.png"
+
+- name: "GWU and NSF-NIST TRAILS"
+  url: "#"
+  logo: "img/logo/gwu-and-nsf-nist-trails.png"
 
 - name: "Youth AI Governance Forum (YAIGF)"
   url: "https://yaigf.org/"
@@ -86,10 +108,19 @@
   url: "https://www.womenatthetable.net/"
   logo: "img/logo/women-at-the-table-a-alliance-inclusive-algorithms-ai-equality-initiative.png"
 
-- name: "Global AI Dialogues"
-  url: "https://linktr.ee/aidialogues"
-  logo: "img/logo/global-ai-dialogues.png"
+- name: "University of Glasgow"
+  url: "https://www.gla.ac.uk/schools/socialpolitical/staff/markwong/"
+  logo: "img/logo/university-of-glasgow.png"
 
-- name: "The Data Tank"
-  url: "https://www.datatank.org"
-  logo: "img/logo/the-data-tank.png"
+- name: "School of Collective Intelligence - SCI"
+  url: "https://sci.um6p.ma"
+  logo: "img/logo/school-of-collective-intelligence-sci.png"
+
+- name: "Missions Publiques"
+  url: "www.missionspubliques.org"
+  logo: "img/logo/missions-publiques.png"
+
+- name: "PresentIA"
+  url: "www.presentia.ch"
+  logo: "img/logo/presentia.png"
+
