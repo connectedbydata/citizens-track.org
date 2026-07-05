@@ -28,7 +28,7 @@
         <div class="container">
             {% assign has_metadata = false %}
             {% if page.resource_url or page.doi or page.authors or page.contributors %}
-                {% assign has_metadata = true %}
+            {% assign has_metadata = true %}
             {% endif %}
 
             {% if has_metadata %}
@@ -45,6 +45,24 @@
                             </li>
                             {% endfor %}
                         </ul>
+                        {% if page.pdf_full or page.pdf_summary %}
+                        <div class="toc-downloads">
+                            <div class="toc-downloads-title">Downloads</div>
+                            <div class="toc-downloads-grid">
+                                {% if page.pdf_full %}
+                                <a href="{{ page.pdf_full | relative_url }}" target="_blank" class="toc-download-link">
+                                    <i class="fa fa-file-pdf-o"></i> Full Report (PDF)
+                                </a>
+                                {% endif %}
+                                {% if page.pdf_summary %}
+                                <a href="{{ page.pdf_summary | relative_url }}" target="_blank"
+                                    class="toc-download-link">
+                                    <i class="fa fa-file-pdf-o"></i> Exec Summary (PDF)
+                                </a>
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% endif %}
                     </div>
                     {% endif %}
 
@@ -54,31 +72,39 @@
                 </div>
                 <div class="col-md-4 col-lg-4">
                     <!-- Concise metadata box at the top (not sticky) -->
-                    <div class="resource-meta-card" style="background-color: #edf3f2; border: 1px solid rgba(137, 175, 173, 0.25); border-radius: 16px; padding: 20px; margin-bottom: 25px; font-family: 'Outfit', sans-serif; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01), 0 10px 20px rgba(0, 0, 0, 0.02); font-size: 14px; color: #242a38; line-height: 1.6;">
+                    <div class="resource-meta-card"
+                        style="background-color: #edf3f2; border: 1px solid rgba(137, 175, 173, 0.25); border-radius: 16px; padding: 20px; margin-bottom: 25px; font-family: 'Outfit', sans-serif; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01), 0 10px 20px rgba(0, 0, 0, 0.02); font-size: 14px; color: #242a38; line-height: 1.6;">
                         <div class="meta-item" style="margin-bottom: 10px;">
-                            <strong style="color: #4c7371; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; display: inline-block; margin-right: 5px;">Published:</strong>
+                            <strong
+                                style="color: #4c7371; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; display: inline-block; margin-right: 5px;">Published:</strong>
                             <span>{{ page.date | date: "%B %d, %Y" }}</span>
                         </div>
 
                         {% if page.authors and page.authors.size > 0 %}
                         <div class="meta-item" style="margin-bottom: 10px;">
-                            <strong style="color: #4c7371; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; display: inline-block; margin-right: 5px;">{% if page.authors.size > 1 %}Authors{% else %}Author{% endif %}:</strong>
+                            <strong
+                                style="color: #4c7371; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; display: inline-block; margin-right: 5px;">{%
+                                if page.authors.size > 1 %}Authors{% else %}Author{% endif %}:</strong>
                             <span>{{ page.authors | join: ", " }}</span>
                         </div>
                         {% endif %}
 
                         {% if page.contributors and page.contributors.size > 0 %}
                         <div class="meta-item" style="margin-bottom: 10px;">
-                            <strong style="color: #4c7371; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; display: inline-block; margin-right: 5px;">{% if page.contributors.size > 1 %}Contributors{% else %}Contributor{% endif %}:</strong>
+                            <strong
+                                style="color: #4c7371; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; display: inline-block; margin-right: 5px;">{%
+                                if page.contributors.size > 1 %}Contributors{% else %}Contributor{% endif %}:</strong>
                             <span>{{ page.contributors | join: ", " }}</span>
                         </div>
                         {% endif %}
 
                         {% if page.doi %}
                         <div class="meta-item" style="margin-bottom: 10px;">
-                            <strong style="color: #4c7371; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; display: inline-block; margin-right: 5px;">DOI:</strong>
+                            <strong
+                                style="color: #4c7371; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; display: inline-block; margin-right: 5px;">DOI:</strong>
                             <span style="word-break: break-all;">
-                                <a href="https://doi.org/{{ page.doi }}" target="_blank" style="color: #4c7371; font-weight: 500; text-decoration: underline;">
+                                <a href="https://doi.org/{{ page.doi }}" target="_blank"
+                                    style="color: #4c7371; font-weight: 500; text-decoration: underline;">
                                     {{ page.doi }}
                                 </a>
                             </span>
@@ -87,7 +113,9 @@
 
                         {% if page.resource_url %}
                         <div style="margin-top: 15px;">
-                            <a href="{{ page.resource_url }}" target="_blank" class="btn btn-primary btn-block text-center" style="display: block; width: 100%; box-sizing: border-box; text-decoration: none; padding: 6px 12px; font-size: 13px;">
+                            <a href="{{ page.resource_url }}" target="_blank"
+                                class="btn btn-primary btn-block text-center"
+                                style="display: block; width: 100%; box-sizing: border-box; text-decoration: none; padding: 6px 12px; font-size: 13px;">
                                 <i class="fa fa-external-link" style="margin-right: 8px;"></i> Access Resource
                             </a>
                         </div>
@@ -105,6 +133,21 @@
                             </li>
                             {% endfor %}
                         </ul>
+                        {% if page.pdf_full or page.pdf_summary %}
+                        <div class="toc-downloads">
+                            <div class="toc-downloads-title">Downloads</div>
+                            {% if page.pdf_full %}
+                            <a href="{{ page.pdf_full | relative_url }}" target="_blank" class="toc-download-link">
+                                <i class="fa fa-file-pdf-o"></i> Full Report (PDF)
+                            </a>
+                            {% endif %}
+                            {% if page.pdf_summary %}
+                            <a href="{{ page.pdf_summary | relative_url }}" target="_blank" class="toc-download-link">
+                                <i class="fa fa-file-pdf-o"></i> Exec Summary (PDF)
+                            </a>
+                            {% endif %}
+                        </div>
+                        {% endif %}
                     </div>
                     {% endif %}
                 </div>
@@ -123,8 +166,8 @@
                 <div class="col-lg-8 {% if has_metadata == false %}col-lg-offset-2{% endif %} col-md-10">
                     <hr style="margin: 30px 0; border-color: rgba(0,0,0,0.06); border-width: 1px;">
                     <div class="post-navigation">
-                        <a href="{{ '/' | relative_url }}" class="btn btn-default"><i
-                                class="fa fa-angle-left"></i> Back to Home</a>
+                        <a href="{{ '/' | relative_url }}" class="btn btn-default"><i class="fa fa-angle-left"></i> Back
+                            to Home</a>
                     </div>
                 </div>
             </div>
@@ -135,7 +178,7 @@
     {% include scripts.html %}
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const footnoteRefs = document.querySelectorAll('a.footnote');
             if (footnoteRefs.length === 0) return;
 
@@ -147,7 +190,7 @@
 
             function positionTooltip(ref) {
                 const rect = ref.getBoundingClientRect();
-                
+
                 tooltip.style.visibility = 'hidden';
                 tooltip.style.display = 'block';
                 tooltip.classList.add('visible');
@@ -158,28 +201,28 @@
 
                 const padding = 15;
                 const viewportWidth = window.innerWidth;
-                
+
                 let left = rect.left + window.scrollX - (tooltipRect.width / 2) + (rect.width / 2);
                 if (left < padding) {
                     left = padding;
                 } else if (left + tooltipRect.width > viewportWidth - padding) {
                     left = viewportWidth - tooltipRect.width - padding;
                 }
-                
+
                 let top = rect.top + window.scrollY - tooltipRect.height - 12;
                 let positionBelow = false;
-                
+
                 if (rect.top - tooltipRect.height - 15 < 0) {
                     top = rect.bottom + window.scrollY + 12;
                     positionBelow = true;
                 }
-                
+
                 const arrowLeft = (rect.left + rect.width / 2) - left;
                 tooltip.style.setProperty('--arrow-left', `${arrowLeft}px`);
-                
+
                 tooltip.style.left = `${left}px`;
                 tooltip.style.top = `${top}px`;
-                
+
                 if (positionBelow) {
                     tooltip.classList.add('position-below');
                 } else {
@@ -197,7 +240,7 @@
                 contentHTML = contentHTML.trim();
 
                 tooltip.innerHTML = contentHTML;
-                
+
                 positionTooltip(ref);
                 tooltip.style.display = 'block';
                 tooltip.offsetHeight; // Force layout recalculation
@@ -217,10 +260,10 @@
             }
 
             footnoteRefs.forEach(ref => {
-                ref.addEventListener('click', function(e) {
+                ref.addEventListener('click', function (e) {
                     e.preventDefault();
                     e.stopPropagation();
-                    
+
                     if (activeRef === ref) {
                         hideTooltip();
                     } else {
@@ -229,19 +272,19 @@
                 });
             });
 
-            document.addEventListener('click', function(e) {
+            document.addEventListener('click', function (e) {
                 if (!tooltip.contains(e.target) && e.target !== activeRef) {
                     hideTooltip();
                 }
             });
 
-            document.addEventListener('keydown', function(e) {
+            document.addEventListener('keydown', function (e) {
                 if (e.key === 'Escape') {
                     hideTooltip();
                 }
             });
-            
-            window.addEventListener('resize', function() {
+
+            window.addEventListener('resize', function () {
                 if (activeRef) positionTooltip(activeRef);
             });
         });
@@ -249,11 +292,11 @@
 
     {% if page.toc %}
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             // Find all section headers
             const tocLinks = document.querySelectorAll('.toc-link');
             const headers = [];
-            
+
             tocLinks.forEach(link => {
                 const targetId = link.getAttribute('href');
                 if (targetId && targetId.startsWith('#')) {

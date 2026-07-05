@@ -1150,5 +1150,149 @@ header.short-header {
     }
 }
 
+// Report Download Box and buttons styling
+.report-download-box {
+    background-color: $brand-accent-light;
+    border: 1px solid rgba($brand-accent, 0.25);
+    border-radius: 16px;
+    padding: 24px;
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: 'Outfit', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01), 0 10px 20px rgba(0, 0, 0, 0.02);
+
+    .download-text-content {
+        flex: 1;
+        min-width: 280px;
+
+        h4 {
+            margin: 0 0 6px 0;
+            font-size: 18px;
+            color: $brand-accent-dark;
+            font-weight: 700;
+        }
+
+        p {
+            margin: 0;
+            font-size: 14px;
+            color: rgba(#242a38, 0.75);
+            line-height: 1.5;
+        }
+    }
+
+    .download-buttons-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .btn-download-pdf {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 24px;
+        border-radius: 30px;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        text-decoration: none !important;
+        transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+        font-family: 'Outfit', sans-serif;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+
+        i {
+            font-size: 16px;
+        }
+
+        &.primary {
+            background-color: $brand-accent-dark;
+            color: white !important;
+            border: 2px solid $brand-accent-dark;
+
+            &:hover {
+                background-color: darken($brand-accent-dark, 7%);
+                border-color: darken($brand-accent-dark, 7%);
+                transform: translateY(-2px);
+                box-shadow: 0 8px 15px rgba($brand-accent-dark, 0.25);
+            }
+        }
+
+        &.secondary {
+            background-color: transparent;
+            color: $brand-accent-dark !important;
+            border: 2px solid $brand-accent-dark;
+
+            &:hover {
+                background-color: $brand-accent-dark;
+                color: white !important;
+                transform: translateY(-2px);
+                box-shadow: 0 8px 15px rgba($brand-accent-dark, 0.25);
+            }
+        }
+    }
+}
+
+// ToC Downloads Section
+.toc-downloads {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px dashed rgba(137, 175, 173, 0.4);
+
+    .toc-downloads-title {
+        font-weight: 700;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+        color: $brand-accent-dark;
+        margin-bottom: 12px;
+    }
+
+    .toc-downloads-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 8px 15px;
+        
+        .toc-download-link {
+            margin-bottom: 0;
+        }
+    }
+
+    .toc-download-link {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 13px;
+        color: rgba(#242a38, 0.75) !important;
+        text-decoration: none !important;
+        margin-bottom: 10px;
+        font-weight: 500;
+        transition: all 0.2s ease;
+
+        i {
+            font-size: 14px;
+            color: #d9534f;
+            transition: transform 0.2s ease;
+        }
+
+        &:hover {
+            color: $brand-accent-dark !important;
+            
+            i {
+                transform: scale(1.15);
+            }
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+
 
 
