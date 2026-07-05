@@ -309,6 +309,26 @@ header.short-header {
 
 // Post content body styling
 .post-body {
+    h1 {
+        font-size: 22px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        line-height: 1.3;
+        font-weight: 700;
+        
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+    
+    h2 {
+        font-size: 20px;
+        margin-top: 35px;
+        margin-bottom: 15px;
+        line-height: 1.3;
+        font-weight: 700;
+    }
+
     img {
         max-width: 100%;
         height: auto;
@@ -819,5 +839,316 @@ header.short-header {
         }
     }
 }
+
+// Custom report styles
+.report-figure {
+    text-align: center;
+    margin: 35px 0;
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        border: 1px solid rgba(137, 175, 173, 0.25);
+        display: block;
+        margin: 0 auto 12px auto;
+    }
+    
+    figcaption {
+        font-family: 'Outfit', sans-serif;
+        font-size: 14px;
+        line-height: 1.6;
+        color: #555;
+        max-width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        
+        p {
+            margin: 0;
+            display: inline;
+        }
+        
+        strong {
+            color: #242a38;
+        }
+    }
+}
+
+.report-callout-box {
+    background-color: #C5D7D6;
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin: 30px 0;
+    color: #242a38;
+    font-size: 15px;
+    line-height: 1.7;
+    border: 1px solid rgba(137, 175, 173, 0.4);
+    
+    p {
+        margin: 0 0 15px 0;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    
+    strong {
+        color: #1a1e28;
+    }
+    
+    ul {
+        margin-bottom: 0;
+    }
+}
+
+#figure-2.report-callout-box {
+    background-color: #f3f4f6;
+    border-color: rgba(0, 0, 0, 0.08);
+}
+
+// Table of Contents & Sidebar Layout Styles
+@media (min-width: 992px) {
+    .resource-flex-row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+    
+    .resource-toc-card {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 90px;
+        max-height: calc(100vh - 150px);
+        overflow-y: auto;
+        padding-right: 5px;
+        
+        scrollbar-width: thin;
+        scrollbar-color: rgba(137, 175, 173, 0.3) transparent;
+        
+        &::-webkit-scrollbar {
+            width: 4px;
+        }
+        &::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        &::-webkit-scrollbar-thumb {
+            background: rgba(137, 175, 173, 0.3);
+            border-radius: 4px;
+        }
+    }
+}
+
+.resource-toc-card,
+.resource-toc-card-mobile {
+    background-color: #fdfcfc;
+    border: 1px solid rgba(137, 175, 173, 0.25);
+    border-radius: 16px;
+    padding: 25px;
+    font-family: 'Outfit', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01), 0 10px 20px rgba(0, 0, 0, 0.02);
+}
+
+.resource-toc-card-mobile {
+    padding: 20px;
+    margin-bottom: 30px;
+    
+    .toc-title {
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-size: 16px;
+        font-weight: 700;
+        color: #242a38;
+        border-bottom: 2px solid rgba(137, 175, 173, 0.3);
+        padding-bottom: 8px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    
+    .toc-list {
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 8px 15px;
+    }
+}
+
+.resource-toc-card {
+    .toc-title {
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-size: 16px;
+        font-weight: 700;
+        color: #242a38;
+        border-bottom: 2px solid rgba(137, 175, 173, 0.3);
+        padding-bottom: 8px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    
+    .toc-list {
+        list-style: none;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+}
+
+.toc-link {
+    display: block;
+    font-size: 14px;
+    color: rgba(#242a38, 0.7) !important;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+    border-left: 2px solid transparent;
+    padding-left: 10px;
+    word-wrap: break-word;
+    
+    &:hover {
+        color: #4c7371 !important;
+        border-left-color: rgba(137, 175, 173, 0.5) !important;
+        padding-left: 14px !important;
+        text-decoration: none;
+    }
+    
+    &.active {
+        color: #4c7371 !important;
+        font-weight: 700 !important;
+        border-left-color: #4c7371 !important;
+        padding-left: 12px !important;
+    }
+}
+
+// Bibliography styles
+.bibliography-entry {
+    padding-left: 24px;
+    text-indent: -24px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgba($text-dark, 0.85);
+    
+    a {
+        word-break: break-all;
+    }
+}
+
+// Footnote tooltips
+.footnote-tooltip {
+    position: absolute;
+    z-index: 1050;
+    max-width: 320px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04);
+    padding: 14px 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #242a38;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    opacity: 0;
+    transform: translateY(5px);
+    pointer-events: none;
+    display: none;
+    
+    &.visible {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+    
+    p {
+        margin: 0;
+        font-size: 14px;
+        line-height: 1.5;
+        
+        a {
+            color: #4c7371;
+            text-decoration: underline;
+            font-weight: 500;
+            
+            &:hover {
+                color: #2e4745;
+            }
+        }
+    }
+    
+    // Dynamic arrow pointing to the footnote number link
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: -6px;
+        left: var(--arrow-left, 50%);
+        transform: translateX(-50%);
+        border-width: 6px 6px 0;
+        border-style: solid;
+        border-color: #ffffff transparent;
+        display: block;
+        width: 0;
+    }
+    
+    &.position-below::after {
+        bottom: auto;
+        top: -6px;
+        border-width: 0 6px 6px;
+        border-color: transparent transparent #ffffff transparent;
+    }
+}
+
+// Footnotes list at the bottom of the page
+.footnotes {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px dashed rgba(0, 0, 0, 0.08);
+    font-size: 13px;
+    line-height: 1.6;
+    color: rgba(#242a38, 0.6);
+    
+    ol {
+        padding-left: 18px;
+        margin-bottom: 0;
+    }
+    
+    li {
+        margin-bottom: 10px;
+        
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    
+    p {
+        font-size: 13px;
+        line-height: 1.6;
+        margin-bottom: 0;
+        color: inherit;
+    }
+    
+    a {
+        color: rgba(#4c7371, 0.85);
+        text-decoration: underline;
+        
+        &:hover {
+            color: #2e4745;
+        }
+    }
+    
+    .reversefootnote {
+        text-decoration: none;
+        margin-left: 4px;
+        font-size: 12px;
+        color: #4c7371;
+        opacity: 0.6;
+        display: inline-block;
+        transition: opacity 0.2s ease;
+        
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
 
 
