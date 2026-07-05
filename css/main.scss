@@ -462,3 +462,362 @@ header.short-header {
     }
 }
 
+// Modal Styling
+@media (min-width: 768px) {
+    #subscribeModal .modal-dialog {
+        width: 850px;
+        max-width: 95%;
+    }
+}
+
+.modal-flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
+
+.modal-content {
+    background-color: $brand-dark;
+    color: white;
+    border: 1px solid rgba(white, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+.keyboard-extension {
+    background-color: darken($brand-dark, 5%);
+    border-top: 1px solid rgba(white, 0.08);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    animation: fadeInKeyboard 0.3s ease forwards;
+    
+    .simple-keyboard-wrapper {
+        width: 100%;
+    }
+}
+
+@keyframes fadeInKeyboard {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.modal-header {
+    border-bottom: 1px solid rgba(white, 0.08);
+    padding: 20px 25px;
+    position: relative;
+
+    .close {
+        color: white;
+        opacity: 0.6;
+        font-size: 28px;
+        text-shadow: none;
+        transition: opacity 0.2s ease;
+        margin-top: -2px;
+
+        &:hover,
+        &:focus {
+            color: white;
+            opacity: 1;
+            outline: none;
+        }
+    }
+
+    .modal-title {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        color: white;
+        margin: 0;
+    }
+}
+
+.modal-body {
+    padding: 25px;
+}
+
+// Glassmorphism modal backdrop
+.modal-backdrop {
+    background-color: darken($brand-dark, 15%);
+    
+    &.in {
+        opacity: 0.8;
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+    }
+}
+
+// Subscribe Form Styles
+.subscribe-form {
+    .form-group {
+        margin-bottom: 18px;
+        position: relative;
+    }
+
+    label {
+        font-family: 'Outfit', sans-serif;
+        color: rgba(white, 0.7);
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    .form-control {
+        background-color: rgba(white, 0.04);
+        border: 1px solid rgba(white, 0.12);
+        border-radius: 10px;
+        color: white;
+        height: auto;
+        padding: 12px 16px;
+        font-family: 'Inter', sans-serif;
+        font-size: 15px;
+        transition: all 0.3s ease;
+        box-shadow: none;
+
+        &:focus {
+            background-color: rgba(white, 0.08);
+            border-color: rgba($brand-accent, 0.6);
+            box-shadow: 0 0 0 3px rgba($brand-accent, 0.15);
+            outline: none;
+        }
+
+        &::placeholder {
+            color: rgba(white, 0.35);
+        }
+    }
+
+    .keyboard-tray-toggle {
+        color: $brand-accent;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none !important;
+        transition: all 0.2s ease;
+
+        &:hover,
+        &.active {
+            color: white;
+        }
+    }
+
+    // Autofill override
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    input:-webkit-autofill:active {
+        -webkit-text-fill-color: white !important;
+        -webkit-box-shadow: 0 0 0 30px #242a38 inset !important; // Match brand dark color
+        transition: background-color 5000s ease-in-out 0s;
+    }
+
+    .consent-checkbox {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .involvement-section {
+        margin: 20px 0;
+        border-top: 1px solid rgba(white, 0.08);
+        padding-top: 15px;
+    }
+
+    .involvement-toggle {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: white !important;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none !important;
+        cursor: pointer;
+        padding: 5px 0;
+        transition: color 0.2s ease;
+
+        &:hover {
+            color: $brand-accent !important;
+        }
+
+        i {
+            transition: transform 0.3s ease;
+            font-size: 14px;
+        }
+
+        &[aria-expanded="true"] {
+            color: $brand-accent !important;
+            i {
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    .involvement-choices {
+        padding-top: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .checkbox-custom {
+        display: flex;
+        align-items: flex-start;
+        position: relative;
+        cursor: pointer;
+
+        input[type="checkbox"] {
+            accent-color: $brand-accent;
+            width: 18px;
+            height: 18px;
+            margin: 2px 12px 0 0;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+
+        label {
+            color: rgba(white, 0.85);
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: none;
+            letter-spacing: 0;
+            margin-bottom: 0;
+            line-height: 1.4;
+            cursor: pointer;
+            display: inline;
+        }
+
+        &:hover label {
+            color: white;
+        }
+    }
+
+    .privacy-disclaimer {
+        margin-top: 20px;
+        border-top: 1px solid rgba(white, 0.08);
+        padding-top: 15px;
+        
+        p {
+            font-size: 11px;
+            line-height: 1.5;
+            color: rgba(white, 0.55);
+            margin-bottom: 0;
+            text-align: left;
+            font-family: 'Inter', sans-serif;
+        }
+
+        a {
+            color: $brand-accent;
+            text-decoration: underline;
+            transition: color 0.2s ease;
+
+            &:hover,
+            &:focus {
+                color: white;
+            }
+        }
+    }
+
+    .btn-submit {
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+
+        .btn-spinner {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+.subscribe-message {
+    padding: 20px 0;
+    animation: fadeInUpMessage 0.5s ease forwards;
+
+    h3 {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    p {
+        font-size: 15px;
+        max-width: 500px;
+        margin: 0 auto;
+        line-height: 1.6;
+    }
+}
+
+@keyframes fadeInUpMessage {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+// simple-keyboard overrides matching the slate-teal theme
+.simple-keyboard {
+    background-color: transparent !important;
+    font-family: 'Outfit', sans-serif;
+    
+    .hg-button {
+        background-color: rgba(white, 0.05) !important;
+        border: 1px solid rgba(white, 0.08) !important;
+        color: white !important;
+        border-radius: 8px !important;
+        font-weight: 600 !important;
+        height: 44px !important;
+        font-size: 14px !important;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) !important;
+        transition: all 0.2s ease !important;
+
+        &:active, 
+        &.hg-activeButton {
+            background-color: $brand-accent !important;
+            color: $brand-dark !important;
+            border-color: $brand-accent !important;
+        }
+
+        &.hg-button-space {
+            max-width: 250px;
+        }
+        
+        &.hg-functionBtn {
+            background-color: rgba(white, 0.08) !important;
+            font-size: 12px !important;
+        }
+    }
+    
+    .hg-row {
+        margin-bottom: 6px !important;
+        gap: 6px;
+        &:last-child {
+            margin-bottom: 0 !important;
+        }
+    }
+}
+
+

@@ -5,11 +5,147 @@
                 <h2 class="section-heading" style="color: white;">Help secure a future of AI shaped by us all.</h2>
                 <hr class="light">
                 <p class="text-faded" style="margin-bottom: 35px;">Deliberation brings together collective intelligence
-                    and community values. Sign up to receive the latest updates, event invitations, and case books from
-                    the Citizens' Track on AI.</p>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdM6ACMym_wcbvcgcXL7Q5ZyevFr9EyjAhfWJSfVL_AXdx4Q/viewform"
-                    target="_blank" class="btn btn-default btn-xl">Subscribe for updates</a>
+                    and community values. Sign up to receive updates from
+                    the Citizens' Track on AI and to get involved.</p>
+
+                <a href="#subscribeModal" data-toggle="modal" class="btn btn-default btn-xl">Subscribe for updates</a>
             </div>
         </div>
     </div>
 </section>
+
+<!-- Subscription Modal -->
+<div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-flex-container">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h3 class="modal-title" id="subscribeModalLabel">Keep in Touch</h3>
+                </div>
+                <div class="modal-body text-left">
+                    <form id="subscribeForm"
+                        action="https://docs.google.com/forms/d/e/1FAIpQLSfdM6ACMym_wcbvcgcXL7Q5ZyevFr9EyjAhfWJSfVL_AXdx4Q/formResponse"
+                        method="POST" target="_blank" class="subscribe-form">
+                        <!-- Hidden inputs required by Google Forms -->
+                        <input type="hidden" name="fvv" value="1">
+                        <input type="hidden" name="pageHistory" value="0">
+    
+                        <div class="row">
+                            <!-- Left Column -->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="sub-name">Your Name</label>
+                                    <input type="text" id="sub-name" name="entry.1782881215" class="form-control"
+                                        placeholder="Jane Doe" autocomplete="name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sub-email">Email <span class="required">*</span></label>
+                                    <input type="email" id="sub-email" name="emailAddress" class="form-control"
+                                        placeholder="jane@example.com" required autocomplete="email">
+                                    <input type="hidden" id="sub-email-hidden" name="entry.1806199863" value="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="sub-org">Your Organisation / Affiliation</label>
+                                    <input type="text" id="sub-org" name="entry.362918737" class="form-control"
+                                        placeholder="Organisation Name" autocomplete="organization">
+                                </div>
+                                <div class="form-group checkbox-custom consent-checkbox" style="margin-top: 25px;">
+                                    <input type="checkbox" id="sub-newsletter" name="entry.1753862285" value="Subscribe" required>
+                                    <label for="sub-newsletter">Subscribe to the newsletter <span class="required">*</span></label>
+                                </div>
+                            </div>
+    
+                            <!-- Right Column -->
+                            <div class="col-md-6">
+                                <div class="involvement-section-direct" style="margin-bottom: 20px;">
+                                    <label style="font-family: 'Outfit', sans-serif; color: rgba(white, 0.7); font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; display: block;">
+                                        How would you like to get involved? (Optional)
+                                    </label>
+                                    <div class="involvement-choices">
+                                        <div class="checkbox-custom">
+                                            <input type="checkbox" id="choice-partner" name="entry.881665708"
+                                                value="Send me information about becoming a citizens' track partner">
+                                            <label for="choice-partner">Send me information about becoming a partner</label>
+                                        </div>
+                                        <div class="checkbox-custom">
+                                            <input type="checkbox" id="choice-assembly" name="entry.881665708"
+                                                value="I'm interested in organising our own community assembly/assemblies on AI">
+                                            <label for="choice-assembly">I'm interested in organising community assemblies</label>
+                                        </div>
+                                        <div class="checkbox-custom">
+                                            <input type="checkbox" id="choice-practice" name="entry.881665708"
+                                                value="I have examples of participatory practice on AI to share">
+                                            <label for="choice-practice">I have examples of participatory practice to share</label>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="privacy-disclaimer">
+                                    <p>Data submitted via this form will be handled by Connected by Data as the interim secretariat,
+                                        according to our <a href="https://connectedbydata.org/policies/data-protection"
+                                            target="_blank" rel="noopener">Data Protection Policy</a>, and may be passed to a new
+                                        secretariat host organisation in future.</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Footer Row with Keyboard Toggle & Submit -->
+                        <div class="row form-footer-row" style="margin-top: 25px; border-top: 1px solid rgba(white, 0.08); padding-top: 20px;">
+                            <div class="col-xs-6 text-left" style="padding-top: 12px;">
+                                <a href="#" id="toggleKeyboardTray" class="keyboard-tray-toggle">
+                                    <i class="fa fa-keyboard-o" aria-hidden="true" style="margin-right: 5px; font-size: 1.2em; vertical-align: -1px;"></i> <span>Touch Keyboard</span>
+                                </a>
+                            </div>
+                            <div class="col-xs-6 text-right">
+                                <button type="submit" class="btn btn-primary btn-xl btn-submit"
+                                    style="width: auto; padding: 12px 30px; border-radius: 10px; box-shadow: none;">
+                                    <span class="btn-text">Subscribe</span>
+                                    <span class="btn-spinner" style="display: none;"><i class="fa fa-circle-o-notch fa-spin"
+                                            aria-hidden="true"></i></span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+    
+                    <div id="subscribeSuccess" class="subscribe-message success-message text-center"
+                        style="display: none; padding: 30px 10px;">
+                        <div class="success-icon-container">
+                            <i class="fa fa-check-circle" aria-hidden="true"
+                                style="font-size: 4em; color: #89afad; margin-bottom: 20px; display: inline-block;"></i>
+                        </div>
+                        <h3 style="color: white; margin-top: 0; font-family: 'Outfit', sans-serif; font-weight: 700;">Thank
+                            you for subscribing!</h3>
+                        <p class="text-faded" style="color: rgba(255,255,255,0.75);">Your details have been successfully
+                            recorded. We'll keep in touch with the latest updates and invitations.</p>
+                    </div>
+    
+                    <div id="subscribeError" class="subscribe-message error-message text-center"
+                        style="display: none; padding: 30px 10px;">
+                        <div class="error-icon-container">
+                            <i class="fa fa-exclamation-circle" aria-hidden="true"
+                                style="font-size: 4em; color: #d9534f; margin-bottom: 20px; display: inline-block;"></i>
+                        </div>
+                        <h3 style="color: white; margin-top: 0; font-family: 'Outfit', sans-serif; font-weight: 700;">
+                            Something went wrong</h3>
+                        <p class="text-faded" style="color: rgba(255,255,255,0.75);">We couldn't submit your subscription.
+                            Please <a
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSfdM6ACMym_wcbvcgcXL7Q5ZyevFr9EyjAhfWJSfVL_AXdx4Q/viewform"
+                                target="_blank" style="text-decoration: underline; color: #89afad;">click here</a> to submit
+                            via the Google Form directly.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Virtual Keyboard Extension Tray -->
+            <div id="keyboardExtension" class="keyboard-extension" style="display: none; border-top: 1px solid rgba(white, 0.08); border-radius: 0 0 16px 16px;">
+                <div class="simple-keyboard-wrapper">
+                    <div class="simple-keyboard"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

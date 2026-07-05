@@ -17,4 +17,10 @@ collections:
     output: true
     permalink: /:year/:slug/
 
-
+exclude:
+  - helper_scripts
+  - Gemfile
+  - Gemfile.lock
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
