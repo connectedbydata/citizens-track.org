@@ -11,6 +11,9 @@ Join us on 7th July at the Geneva Graduate Institute (The Fab, Maison de la Paix
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSez74baiqGA2CmKFSHK7f7UJIiOnnQAmEBMiu_ADdNN63DApQ/viewform" class="btn btn-primary" target="_blank" style="margin: 12px 0; display: inline-block;">Register for the Roundtable</a>
 
+<a href="https://iheid.webex.com/iheid/j.php?MTID=me7abc401b30b8970612f203574080bdb" class="btn btn-primary" target="_blank" style="margin: 12px 0; display: inline-block;">Join via WebEx (7th July 09:00 - 10:00 CEST)</a>
+
+
 > This roundtable will develop the coalition for a Citizens’ Track on AI, and share practical approaches for public deliberation as a continuity and implementation mechanism for the Global Dialogue. 
 >
 > We will showcase learning from inclusive public dialogues on AI across the world, exploring how a Citizens’ Track in AI governance harnesses public deliberation to build capacity, support community agency, align global decisions with public interest, and deliver accountability in AI governance. 
