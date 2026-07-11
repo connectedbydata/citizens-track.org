@@ -5,23 +5,52 @@ title: "A Citizens’ Track on AI: Agency, Alignment & Accountability"
 date: 2026-07-07 08:00:00 +0100
 author: "Tim Davies"
 author_url: "https://connectedbydata.org/people/tim-davies"
+excerpt: "On 7th July at the Geneva Graduate Institute, as a fringe event of the UN Global Dialogue on AI Governance, we held a roundtable to formally launch the Citizens' Track on AI whitepaper."
 ---
 
-Join us on 7th July at the Geneva Graduate Institute (The Fab, Maison de la Paix) for a roundtable to formally launch the Citizens' Track on AI initiative, from 08:45 - 10:00. 
+![Image of the roundtable taking place](/assets/posts/2026-07-07-roundtable.png)
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSez74baiqGA2CmKFSHK7f7UJIiOnnQAmEBMiu_ADdNN63DApQ/viewform" class="btn btn-primary" target="_blank" style="margin: 12px 0; display: inline-block;">Register for the Roundtable</a>
+On 7th July at the Geneva Graduate Institute (The Fab, Maison de la Paix), as a fringe event of the UN Global Dialogue on AI Governance, we held a roundtable to formally launch the [Citizens' Track on AI whitepaper](/2026/report/).
 
-<a href="https://iheid.webex.com/iheid/j.php?MTID=me7abc401b30b8970612f203574080bdb" class="btn btn-primary" target="_blank" style="margin: 12px 0; display: inline-block;">Join via WebEx (7th July 09:00 - 10:00 CEST)</a>
+You can watch a recording of the opening presentations below, including inputs from:
+
+* Emrys Shoemaker, Geneva Graduate Institute
+* Andrea Iff, Democracy Section, Swiss Ministry of Foreign Affairs
+* Tim Davies, Connected by Data
+* Susan Oman, University of Sheffield
+* Rich Wilson, Global Citizen Assembly
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/C-7vMLATbNQ?si=0LxP86q3bpFmswRW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+The presentations were followed by a roundtable discussion, under the chatham house rule. Some of the themes raised include:
+
+Here is a more dynamic, punchy breakdown of the roundtable debate, keeping the insights sharp and fully compliant with the **Chatham House Rule**:
+
+* **Focus less on process, sell the solutions:** It’s not enough to praise inclusion for its own sake; if citizen insights are going to sway power-holders, they must be translated into hard outcomes that solve the immediate, messy policy problems politicians are actively trying to fix.
+
+* **Surviving the civic squeeze:** With digital and physical civic spaces aggressively shrinking worldwide, the track needs a bulletproof theory of change to ensure marginalized voices aren't silenced in restrictive regimes.
 
 
-> This roundtable will develop the coalition for a Citizens’ Track on AI, and share practical approaches for public deliberation as a continuity and implementation mechanism for the Global Dialogue. 
->
-> We will showcase learning from inclusive public dialogues on AI across the world, exploring how a Citizens’ Track in AI governance harnesses public deliberation to build capacity, support community agency, align global decisions with public interest, and deliver accountability in AI governance. 
->
-> Centering voices from affected communities places a spotlight on actions needed to respond to AI opportunity & harm across diverse geographic, social and cultural contexts
+* **Avoid abstraction:** AI cannot remain a high-minded tech buzzword; global dialogues must ground the debate in concrete realities—like the immediate, devastating impact on a gig worker whose livelihood is suddenly cut off by an unexplained algorithmic account deactivation.
 
 
-**Co-organised by:** [Citizens Track on AI](https://www.citizenstrack.org), [Geneva Graduate Institute](https://www.graduateinstitute.ch), [Global Citizens' Assembly](https://www.globalassembly.org), [Coalition for the UN We Need](https://c4unwn.org), [AI & Cybertech Governance ImPact Coalition](https://www.un.org/future-of-the-un/impact-coalitions), [AI & Equality](https://www.aiandequality.org), [Women at the Table](https://www.womenatthetable.net), [Ada Lovelace Institute](https://www.adalovelaceinstitute.org), [University of Sheffield Centre for Machine Intelligence](https://www.sheffield.ac.uk/cmi), [Multistakeholder Approaches to Participation in AI Governance (MAP-AI)](https://www.map-ai.org), [Connected by Data](https://connectedbydata.org), [Iswe Foundation](https://www.iswe.org)
+* **The "Momentum Trap":** History shows that citizen tracks can successfully hijack the spotlight during major global summits (like past climate or internet governance events), but the real battle is surviving the aftermath and embedding these dialogues into long-term policy before the hype dies.
+
+
+* **The expertise imposter loop:** Regulators frequently lock citizens out by claiming everyday people lack technical expertise—yet those same state actors admit they are flying blind themselves, creating a dangerous loop where tech governance is continually deferred to a few "AI gods".
+
+
+* **Clashing with corporate power:** Traditional multilateralism is fracturing, and the AI landscape feels like it is ruled by private tech giants rather than states; therefore, accountability might require taking a page from the extractives industry governance playbook to force companies to secure a "social license to operate" from the public.
+
+* **Bold horizons and civic duty:** Instead of just reacting to corporate tech, the public should be empowered to build sovereign, non-corporate alternatives, treating deep AI deliberation not as an optional workshop, but as a fundamental, state-supported civic duty.
+
+The conversations continued in our [Theory to Practice day at the UN Palais des Nations on Wednesday](2026-07-08-un-multi-stakeholder-ai-day.md)
+
+
+
+**The session was co-organised by:** [Citizens Track on AI](https://www.citizenstrack.org), [Geneva Graduate Institute](https://www.graduateinstitute.ch), [Global Citizens' Assembly](https://www.globalassembly.org), [Coalition for the UN We Need](https://c4unwn.org), [AI & Cybertech Governance ImPact Coalition](https://www.un.org/future-of-the-un/impact-coalitions), [AI & Equality](https://www.aiandequality.org), [Women at the Table](https://www.womenatthetable.net), [Ada Lovelace Institute](https://www.adalovelaceinstitute.org), [University of Sheffield Centre for Machine Intelligence](https://www.sheffield.ac.uk/cmi), [Multistakeholder Approaches to Participation in AI Governance (MAP-AI)](https://www.map-ai.org), [Connected by Data](https://connectedbydata.org), [Iswe Foundation](https://www.iswe.org)
 
 
 ## Outline Agenda 
@@ -37,5 +66,3 @@ Join us on 7th July at the Geneva Graduate Institute (The Fab, Maison de la Paix
 | **09:40** | **Open roundtable: the opportunity ahead** *Reflecting on the potential of a Citizens’ Track to deliver change in AI governance through the UN Global Dialogue and Swiss AI Summit* | Chair: Emrys Schoemaker |
 | **09:50** | **Close**  *Head back to Palexpo, or continue informal networking over further refreshments* |  |
 | **10:00** | **Informal networking**  |  |
-| **10:30** | **(Optional co-working)** Hands-on: designing community assemblies for the Swiss AI Summit. |  |
-|  |  |  |
