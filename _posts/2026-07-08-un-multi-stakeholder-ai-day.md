@@ -16,7 +16,7 @@ On a day that began with hearing the co-chairs of the [UN Global Dialogue on AI 
 The session lightly followed the structure of a deliberative workshop, starting with scene-setting from the [Geneva Graduate Institute](https://www.graduateinstitute.ch/), [The Global Citizens’ Assembly](https://globalassemblies.org/) and [PAIRS](https://www.pairs.site), and an introduction to the [Citizens’ Track white paper](https://citizens-track.org/2026/report/). 
 
 ![Speakers at the Palais des Nations](/assets/posts/panel-un-hq.jpeg)
-
+g
 This was followed by an expert panel, with insights and provocations on a number of themes. A video of the panel will be available soon. In the meantime, the notes below briefly summarise some of the panel’s contributions: 
 
 **On community assembly design**
