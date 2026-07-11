@@ -31,7 +31,7 @@ Or, if you can think of someone who should know about the citizens track initiat
 
 * You can **[read more here about the learning from our next-steps workshop](https://www.citizens-track.org/2026/07/08/un-multi-stakeholder-ai-day.html)**, hosted at the United Nations Palais des Nations on Wednesday, as part of the multistakeholder data on AI governance, organised with PAIRS, Geneva Graduate Institute, MAP-AI, UNOCHR, B-Tech, BSR, Global Network Initiative and the Global South Network for Trustworthy AI. 
 
-* You can find a [post outlining the Citizens’ Track on the Ada Lovelace Institute blog](https://www.adalovelaceinstitute.org/blog/a-citizens-track-is-needed-for-democratic-ai-to-move-from-rhetoric-to-reality/), and [watch Ada Lovelace Executive Director Gaia Marcus settings out the importance of the citizens’ track in the closing sessions of the UN Global Dialogue on AI Governance](https://webtv.un.org/en/asset/k1e/k1ejkb0bkv?kalturaStartTime=1&config%5Bplayback%5D=%7B%22audioLanguage%22:%22en%22%7D&config%5Bui%5D=%7B%22locale%22:%22en%22%7D&kalturaSeekFrom=8404&kalturaClipTo=8684) (4 minutes).
+* You can find a [post outlining the Citizens’ Track on the Ada Lovelace Institute blog](https://www.adalovelaceinstitute.org/blog/a-citizens-track-is-needed-for-democratic-ai-to-move-from-rhetoric-to-reality/), and [watch Ada Lovelace Executive Director Gaia Marcus setting out the importance of the citizens’ track in the closing sessions of the UN Global Dialogue on AI Governance](https://webtv.un.org/en/asset/k1e/k1ejkb0bkv?kalturaStartTime=1&config%5Bplayback%5D=%7B%22audioLanguage%22:%22en%22%7D&config%5Bui%5D=%7B%22locale%22:%22en%22%7D&kalturaSeekFrom=8404&kalturaClipTo=8684) (4 minutes).
 
 ## **Join us to look ahead…**
 
@@ -49,7 +49,7 @@ If you’ve not yet taken a look at the case book, [you can find it here](https:
 
 Are we missing an example of a project that has sought citizen voice in shaping AI? [Nominate it for future inclusion](https://forms.fillout.com/t/u7vQQNPRhpus) and over the coming weeks we’ll continue to add examples to the map. 
 
-Plus, watch [Susan Oman, from the University of Sheffield Centre for Machine Intelligence on why they’re involved in co-creating the PAVE Case Book](https://www.linkedin.com/posts/shefcmi_cmi-aigovernance-unitednations-activity-7480953184337874944-2CGt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAACbFGoBxo6HJ6_csEkVhqc727PXJvrWg1E)
+Plus, watch [Susan Oman talk about why the University of Sheffield Centre for Machine Intelligence have been part of co-creating the PAVE Case Book](https://www.linkedin.com/posts/shefcmi_cmi-aigovernance-unitednations-activity-7480953184337874944-2CGt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAACbFGoBxo6HJ6_csEkVhqc727PXJvrWg1E)
 
 ## **Save the date: PAIRS 2027** 
 
