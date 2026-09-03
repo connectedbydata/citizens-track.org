@@ -49,6 +49,20 @@ We are seeking to involve approximately 10 - 15 participants in the design sprin
 
 To provide an opportunity to find out more, and also invite a larger number of people to input, we are holding a series of ‘briefing and workshop sessions’ in September, both online and in-person (tbc). 
 
-* Join a briefing and design workshop session (coming soon)
-* [Apply to take part in the design sprint](https://docs.google.com/forms/d/e/1FAIpQLSetV2DYnT9ZRv1EiU0UPleI6QTQQAPUh3cYO6YG2N3-q0Ul1g/viewform?usp=dialog){:target="_blank"}
-* Register interest in using the toolkit (coming soon)
+### Join a briefing and design workshop session 
+
+We're running a series of online and in-person workshops in September ahead of the co-design cohort.
+
+* **14th September 2026 (Online)**: [Community Assembly Toolkit Co-design: Briefing & workshop](/events/community-assembly-toolkit-briefing/) (Zoom)
+* **16th September 2026 (San Francisco)**: [Creating a toolkit for community assemblies on AI](/events/co-design-workshop-sf/) (Gray Area, San Francisco)
+* **18th September 2026 (Washington, DC)**: [Catalysing community dialogue on Artificial Intelligence](/events/co-design-workshop-dc/) (ASU, Washington, DC)
+
+### Apply to take part in the design sprint
+
+[Apply by 25th September](https://docs.google.com/forms/d/e/1FAIpQLSetV2DYnT9ZRv1EiU0UPleI6QTQQAPUh3cYO6YG2N3-q0Ul1g/viewform?usp=dialog){:target="_blank"} (applications reviewed on rolling basis) to join us in the toolkit co-design process. 
+
+### Use the Community Assembly Toolkit
+
+We'll share more details soon of how you can run your own community assembly.
+
+[Register interest in using the toolkit to run a community assembly here](/#subscribe).
