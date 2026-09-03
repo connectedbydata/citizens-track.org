@@ -30,6 +30,10 @@
                 </li>
                 <li>
                     <a class="{% if page.layout == 'front' %}page-scroll{% endif %}"
+                        href="{% if page.layout == 'front' %}#events{% else %}{{ '/' | relative_url }}#events{% endif %}">Events</a>
+                </li>
+                <li>
+                    <a class="{% if page.layout == 'front' %}page-scroll{% endif %}"
                         href="{% if page.layout == 'front' %}#updates{% else %}{{ '/' | relative_url }}#updates{% endif %}">Updates</a>
                 </li>
                 <li>

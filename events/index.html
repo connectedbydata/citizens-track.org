@@ -1,0 +1,119 @@
+---
+layout: archive
+title: Events
+permalink: /events/
+---
+
+<section class="bg-light" style="padding: 80px 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+
+                {% assign current_timestamp = site.time | date: "%s" | plus: 0 %}
+                {% assign all_events = site.events | sort: 'date' %}
+
+                {% assign upcoming_events = "" | split: "" %}
+                {% assign past_events = "" | split: "" %}
+
+                {% for event in all_events %}
+                  {% assign event_timestamp = event.date | date: "%s" | plus: 0 %}
+                  {% if event_timestamp >= current_timestamp %}
+                    {% assign upcoming_events = upcoming_events | push: event %}
+                  {% else %}
+                    {% assign past_events = past_events | push: event %}
+                  {% endif %}
+                {% endfor %}
+
+                {% if upcoming_events.size > 0 %}
+                <div style="margin-bottom: 40px;">
+                    <h2 style="font-size: 24px; font-weight: 700; color: #242a38; margin-bottom: 25px;">Upcoming Events</h2>
+                    <div class="row" style="display: flex; flex-wrap: wrap;">
+                        {% for event in upcoming_events %}
+                        <div class="col-lg-6 col-md-6" style="display: flex; margin-bottom: 30px;">
+                            <div class="event-card">
+                                <div class="event-card-header">
+                                    <div class="event-date-badge">
+                                        <span class="event-month">{{ event.date | date: "%b" }}</span>
+                                        <span class="event-day">{{ event.date | date: "%d" }}</span>
+                                    </div>
+                                    <div class="event-header-details">
+                                        <div class="event-full-date">
+                                            <i class="fa fa-calendar-o"></i> {{ event.date | date: "%A, %B %d, %Y" }}
+                                        </div>
+                                        {% if event.location %}
+                                        <div class="event-location-tag">
+                                            <i class="fa fa-map-marker"></i> {{ event.location }}
+                                        </div>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                                <div class="event-card-body">
+                                    <h3 class="event-title">
+                                        <a href="{{ event.url | relative_url }}">{{ event.title }}</a>
+                                    </h3>
+                                    <p class="event-excerpt">
+                                        {{ event.excerpt | strip_html | truncatewords: 28 }}
+                                    </p>
+                                </div>
+                                <div class="event-card-footer">
+                                    <a href="{{ event.url | relative_url }}" class="event-details-link">
+                                        View Details <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                    {% if event.registration_link %}
+                                    <a href="{{ event.registration_link }}" target="_blank" class="btn btn-primary btn-sm event-register-btn">
+                                        <i class="fa fa-ticket"></i> Register
+                                    </a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <hr style="margin: 20px 0 50px; border-color: rgba(0,0,0,0.08);">
+                {% endif %}
+
+                <div>
+                    <h2 style="font-size: 24px; font-weight: 700; color: #242a38; margin-bottom: 25px;">Past Events & Roundtables</h2>
+                    
+                    {% assign past_events_reversed = past_events | reverse %}
+                    {% for event in past_events_reversed %}
+                    <article class="update-article">
+                        <div class="update-meta" style="display: flex; align-items: center; gap: 15px; flex-wrap: wrap;">
+                            <span><i class="fa fa-calendar-check-o" style="color: #89afad; margin-right: 4px;"></i> {{ event.date | date: "%B %d, %Y" }}</span>
+                            {% if event.location %}
+                            <span style="opacity: 0.6;">&bull;</span>
+                            <span><i class="fa fa-map-marker" style="color: #89afad; margin-right: 4px;"></i> {{ event.location }}</span>
+                            {% endif %}
+                            {% if event.author %}
+                            <span style="opacity: 0.6;">&bull;</span>
+                            <span>by
+                                {% if event.author_url %}
+                                <a href="{{ event.author_url }}" target="_blank" style="color: inherit; text-decoration: underline;">{{ event.author }}</a>
+                                {% else %}
+                                {{ event.author }}
+                                {% endif %}
+                            </span>
+                            {% endif %}
+                        </div>
+
+                        <h2 class="update-heading">
+                            <a href="{{ event.url | relative_url }}">{{ event.title }}</a>
+                        </h2>
+                        <div class="update-content-excerpt">
+                            {{ event.excerpt | strip_html | truncatewords: 50 }}
+                        </div>
+                        <a href="{{ event.url | relative_url }}" class="btn btn-default">Read Notes & Summary <i
+                                class="fa fa-angle-right" style="margin-left: 5px;"></i></a>
+                    </article>
+                    {% else %}
+                    <div class="text-center">
+                        <p>No past events found.</p>
+                    </div>
+                    {% endfor %}
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

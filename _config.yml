@@ -12,10 +12,18 @@ github_username:
 markdown: kramdown
 future: true
 
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
 collections:
   resources:
     output: true
     permalink: /:year/:slug/
+  events:
+    output: true
+    permalink: /events/:slug/
 
 exclude:
   - helper_scripts

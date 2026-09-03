@@ -1,11 +1,14 @@
 ---
-layout: post
-type: event
+layout: event
 title: "A Citizens Track on AI Governance: From Theory to Practice"
 date: 2026-07-08 16:15:00 +0100
 author: "Tim Davies"
 author_url: "https://connectedbydata.org/people/tim-davies"
+location: "Palais des Nations, Geneva, Switzerland"
 excerpt: "On Wednesday 8th June 2026 we hosted ‘A Citizens Track on AI Governance: From Theory to Practice’ at the United Nations Palais des Nations."
+redirect_from:
+  - /2026/07/08/un-multi-stakeholder-ai-day.html
+  - /2026/07/08/un-multi-stakeholder-ai-day/
 ---
 
 ![Multistakeholder Convening on AI Governance](/assets/posts/multistakeholder-day.png)

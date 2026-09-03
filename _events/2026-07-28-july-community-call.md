@@ -1,11 +1,14 @@
 ---
-layout: post
-type: event
+layout: event
 title: "Citizens' Track Community Call: 30th July"
 date: 2026-07-28 16:00:00 +0100
 author: "Tim Davies"
 author_url: "https://connectedbydata.org/people/tim-davies"
+location: "Online (Zoom)"
 excerpt: "Join us via Zoom on Thursday 30th July to hear reflections on the UN Global Dialogue on AI Governance, share reflections, and learn about the draft workplan for the Citizens’ Track."
+redirect_from:
+  - /2026/07/28/july-community-call.html
+  - /2026/07/28/july-community-call/
 ---
 
 Join us for our upcoming **Citizens' Track Community Call** on **Thursday 30th July 2026** to look ahead and reflect on recent events.

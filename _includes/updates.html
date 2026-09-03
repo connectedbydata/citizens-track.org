@@ -17,9 +17,6 @@
                         <div class="update-date"
                             style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px;">
                             <span>{{ post.date | date: "%B %d, %Y" }}</span>
-                            {% if post.type == "event" %}
-                            <span class="event-tag">Event</span>
-                            {% endif %}
                         </div>
                         <h3 class="update-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
                         <p class="update-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>

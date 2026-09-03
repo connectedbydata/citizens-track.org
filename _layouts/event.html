@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+    {% include nav.html %}
+
+    <header class="short-header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+                        <div style="margin-bottom: 15px;">
+                            <span class="event-tag-light">Event</span>
+                        </div>
+                        <div class="news-date"
+                            style="color: {{ site.brand-accent | default: '#89afad' }}; font-family: 'Outfit', sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 15px;">
+                            {{ page.date | date: "%B %d, %Y" }}
+                        </div>
+                        <h1 class="header-title-stacked" style="font-size: 38px; line-height: 1.2; text-shadow: none;">
+                            {{ page.title }}</h1>
+                        <hr class="header-divider">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <article class="post-content-section" style="padding: 40px 0 80px; background-color: #fdfcfc;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+                    {% if page.location or page.registration_link or page.date %}
+                    <div class="event-meta-card">
+                        <div class="event-meta-grid">
+                            <div class="event-meta-item">
+                                <div class="event-meta-icon">
+                                    <i class="fa fa-calendar"></i>
+                                </div>
+                                <div class="event-meta-content">
+                                    <span class="event-meta-label">Date</span>
+                                    <span class="event-meta-value">{{ page.date | date: "%A, %B %d, %Y" }}</span>
+                                </div>
+                            </div>
+
+                            {% if page.location %}
+                            <div class="event-meta-item">
+                                <div class="event-meta-icon">
+                                    <i class="fa fa-map-marker"></i>
+                                </div>
+                                <div class="event-meta-content">
+                                    <span class="event-meta-label">Location</span>
+                                    <span class="event-meta-value">{{ page.location }}</span>
+                                </div>
+                            </div>
+                            {% endif %}
+                        </div>
+
+                        {% if page.registration_link %}
+                        <div class="event-meta-actions">
+                            <a href="{{ page.registration_link }}" target="_blank"
+                                class="btn btn-primary event-cta-btn">
+                                <i class="fa fa-ticket"></i> Register for Event <i class="fa fa-external-link"
+                                    style="font-size: 11px; opacity: 0.85; margin-left: 2px;"></i>
+                            </a>
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endif %}
+
+                    <div class="post-body" style="font-size: 16px; line-height: 1.8; color: #242a38;">
+                        {{ content }}
+                    </div>
+
+                    {% if page.registration_link %}
+                    <div class="event-bottom-cta"
+                        style="margin: 45px 0 35px; padding: 28px; background: linear-gradient(135deg, #edf3f2 0%, #f4f8f7 100%); border-radius: 16px; text-align: center; border: 1px solid rgba(137, 175, 173, 0.35); box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                        <h4
+                            style="margin-top: 0; margin-bottom: 8px; font-weight: 700; font-size: 19px; color: #242a38; font-family: 'Outfit', sans-serif;">
+                            Interested in joining?</h4>
+                        <a href="{{ page.registration_link }}" target="_blank" class="btn btn-primary"
+                            style="padding: 11px 26px; font-weight: 700; font-family: 'Outfit', sans-serif; border-radius: 8px; text-transform: uppercase; letter-spacing: 0.6px; font-size: 13px; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                            <i class="fa fa-ticket"></i> Register Now <i class="fa fa-external-link"
+                                style="font-size: 11px; opacity: 0.85;"></i>
+                        </a>
+                    </div>
+                    {% endif %}
+
+                    <hr style="margin: 50px 0 30px; border-color: rgba(0,0,0,0.06); border-width: 1px;">
+                    <div class="post-navigation">
+                        <a href="{{ '/events/' | relative_url }}" class="btn btn-default"><i
+                                class="fa fa-angle-left"></i> Back to Events</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    {% include footer.html %}
+    {% include scripts.html %}
+</body>
+
+</html>

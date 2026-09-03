@@ -1,12 +1,15 @@
 ---
-layout: post
-type: event
+layout: event
 title: "Towards a Citizens Track on AI Governance"
 date: 2026-04-23 09:00:00 +0100
 author: "Tim Davies"
 author_url: "https://connectedbydata.org/people/tim-davies"
+location: "Geneva, Switzerland"
+excerpt: "This breakfast roundtable, organised to coincide with meetings of the UN Committee on Science and Technology for Development (CSTD) explored how transnational, national and grassroots public engagement can be brought into two-way connection with the evolving global AI Governance architecture."
+redirect_from:
+  - /2026/04/23/towards-a-citizens-track-on-ai-governance.html
+  - /2026/04/23/towards-a-citizens-track-on-ai-governance/
 ---
-
 
 **How can the voices of affected communities be placed central to AI governance?** Across the world, citizens are sharing their views on the future of data, AI and technology through informed public deliberation. 
 

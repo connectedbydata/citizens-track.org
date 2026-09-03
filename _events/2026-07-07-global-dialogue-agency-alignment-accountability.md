@@ -1,11 +1,14 @@
 ---
-layout: post
-type: event
+layout: event
 title: "A Citizens’ Track on AI: Agency, Alignment & Accountability"
 date: 2026-07-07 08:00:00 +0100
 author: "Tim Davies"
 author_url: "https://connectedbydata.org/people/tim-davies"
+location: "Geneva Graduate Institute, Geneva, Switzerland"
 excerpt: "On 7th July at the Geneva Graduate Institute, as a fringe event of the UN Global Dialogue on AI Governance, we held a roundtable to formally launch the Citizens' Track on AI whitepaper."
+redirect_from:
+  - /2026/07/07/global-dialogue-agency-alignment-accountability.html
+  - /2026/07/07/global-dialogue-agency-alignment-accountability/
 ---
 
 ![Image of the roundtable taking place](/assets/posts/2026-07-07-roundtable.png)
@@ -46,7 +49,7 @@ Here is a more dynamic, punchy breakdown of the roundtable debate, keeping the i
 
 * **Bold horizons and civic duty:** Instead of just reacting to corporate tech, the public should be empowered to build sovereign, non-corporate alternatives, treating deep AI deliberation not as an optional workshop, but as a fundamental, state-supported civic duty.
 
-The conversations continued in our [Theory to Practice day at the UN Palais des Nations on Wednesday](2026-07-08-un-multi-stakeholder-ai-day.md)
+The conversations continued in our [Theory to Practice day at the UN Palais des Nations on Wednesday](/events/2026-07-08-un-multi-stakeholder-ai-day/)
 
 
 
@@ -60,7 +63,7 @@ The conversations continued in our [Theory to Practice day at the UN Palais des 
 | **08:45** | **Arrival and light refreshments** (outside room) |  |
 | **09:00** | **Welcome and introductions** | Emrys Schoemaker (Geneva Graduate Institute); Andrea Iff (Swiss Ministry of Foreign Affairs, Democracy Section) |
 | **09:10** | **The Citizens Track**  *Launching the new Citizens Track on AI report* | Tim Davies (Connected by Data) |
-| **09:15** | **Listen: PAVE Case Book Launch***Sharing examples from the PAVE Case Book and hearing from participation projects.*  | Susan M Oman (University of Sheffield) / Octavia Field Reid (Ada Lovelace Institute) \+ guests |
+| **09:15** | **Listen: PAVE Case Book Launch** *Sharing examples from the PAVE Case Book and hearing from participation projects.*  | Susan M Oman (University of Sheffield) / Octavia Field Reid (Ada Lovelace Institute) \+ guests |
 | **09:25** | **Connect: Opportunities in the Global Dialogue and AI Summits** *Reflections from the first day of the Global Dialogue, and*  | Rapid roundtable of reflections from Summit Day 1\.  Chair: *tbc* |
 | **09:35** | **Embed: Building institutions**  *Including metrics of success* | Rich Wilson (ISWE Foundation)  |
 | **09:40** | **Open roundtable: the opportunity ahead** *Reflecting on the potential of a Citizens’ Track to deliver change in AI governance through the UN Global Dialogue and Swiss AI Summit* | Chair: Emrys Schoemaker |
