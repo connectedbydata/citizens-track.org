@@ -1635,6 +1635,190 @@ header.short-header {
     }
 }
 
+// Toolkit Call to Action Components
+.toolkit-cta-card {
+    background: radial-gradient(circle at 85% 15%, rgba($brand-accent, 0.2) 0%, rgba($brand-dark, 0.98) 100%), $brand-dark;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 36px 32px;
+    margin: 40px 0 24px;
+    border: 1px solid rgba($brand-accent, 0.35);
+    box-shadow: 0 15px 35px rgba($brand-dark, 0.2), 0 5px 15px rgba(0, 0, 0, 0.08);
+    position: relative;
+    overflow: hidden;
 
+    &::before {
+        content: '';
+        position: absolute;
+        top: -60px;
+        right: -60px;
+        width: 180px;
+        height: 180px;
+        background: radial-gradient(circle, rgba($brand-accent, 0.25) 0%, transparent 70%);
+        border-radius: 50%;
+        pointer-events: none;
+    }
 
+    .cta-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: rgba($brand-accent, 0.2);
+        color: $brand-accent;
+        border: 1px solid rgba($brand-accent, 0.4);
+        padding: 4px 12px;
+        border-radius: 20px;
+        font-family: 'Outfit', sans-serif;
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.8px;
+        margin-bottom: 16px;
+    }
 
+    .cta-heading {
+        font-family: 'Outfit', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #ffffff;
+        margin: 0 0 12px;
+        line-height: 1.3;
+    }
+
+    .cta-intro {
+        font-size: 15px;
+        line-height: 1.65;
+        color: rgba(255, 255, 255, 0.88);
+        margin-bottom: 22px;
+    }
+
+    .cta-highlights {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+        gap: 12px;
+        margin-bottom: 26px;
+        padding: 16px 18px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+
+        .cta-highlight-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.45;
+
+            i {
+                color: $brand-accent;
+                font-size: 15px;
+                margin-top: 2px;
+                flex-shrink: 0;
+            }
+
+            strong {
+                color: #ffffff;
+            }
+        }
+    }
+
+    .cta-action-area {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 16px;
+
+        .btn-apply {
+            background-color: $brand-accent;
+            color: $brand-dark !important;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 800;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            padding: 14px 28px;
+            border-radius: 8px;
+            border: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 6px 16px rgba($brand-accent, 0.35);
+            transition: all 0.3s ease;
+            text-decoration: none;
+
+            &:hover {
+                background-color: lighten($brand-accent, 10%);
+                transform: translateY(-2px);
+                box-shadow: 0 10px 24px rgba($brand-accent, 0.5);
+                color: $brand-dark !important;
+            }
+        }
+
+        .cta-note {
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.65);
+            margin: 0;
+        }
+    }
+}
+
+.toolkit-cta-secondary {
+    background-color: #ffffff;
+    border: 1px solid rgba($brand-accent, 0.3);
+    border-radius: 16px;
+    padding: 26px 28px;
+    margin: 20px 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+
+    .secondary-content {
+        flex: 1 1 300px;
+
+        h4 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: $brand-dark;
+            margin: 0 0 6px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.55;
+            color: rgba($text-dark, 0.8);
+            margin: 0;
+        }
+    }
+
+    .btn-secondary-action {
+        border: 2px solid $brand-accent;
+        color: $brand-accent-dark !important;
+        font-family: 'Outfit', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        padding: 10px 20px;
+        border-radius: 8px;
+        background: transparent;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        text-decoration: none;
+        transition: all 0.25s ease;
+        white-space: nowrap;
+
+        &:hover {
+            background-color: $brand-accent;
+            color: #ffffff !important;
+            border-color: $brand-accent;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba($brand-accent, 0.25);
+        }
+    }
+}
