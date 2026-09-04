@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Creating a Community Assembly Resource"
+title: "Creating a Toolkit for Community Assemblies on AI"
 permalink: /toolkit/
 ---
 

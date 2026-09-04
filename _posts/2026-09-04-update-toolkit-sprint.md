@@ -76,7 +76,7 @@ We're committed to working collaboratively and in the open.
 
 Have you been running a project engaging the public on AI? Get in touch to make sure it is featured in the [Public AI Voice and Engagement Case Book](https://pave.pairs.site), and so we can share news in future Citizens' Track on AI newsletters. 
 
-* [Odyssean Foundation](https://www.odysseaninstitute.org/post/an-odyssey-launched-update-on-the-first-odyssean-process) and [House of the People](https://www.houseofthepeople.uk/uk-citizens-assembly-ai) have shared updates on a Citizens Assembly on AI running in the UK this November, supported by a series of Community Assemblies in the coming months. 
+* [Odyssean Institute](https://www.odysseaninstitute.org/post/an-odyssey-launched-update-on-the-first-odyssean-process) and [House of the People](https://www.houseofthepeople.uk/uk-citizens-assembly-ai) have shared updates on a Citizens Assembly on AI running in the UK this November, supported by a series of Community Assemblies in the coming months. 
 * The themes of the [2027 Geneva AI Summit](https://genevaaisummit.swiss/) have been announced, and a call is open for 'Road to Geneva' events.
 * The [Participatory AI Governance Hub (PAIGHub)](https://paighub.org/) website has launched, sharing more info on this platform to connect different groups working on participatory approaches to AI Governance
 * The [2026 Global Citizens Assembly on Food Systems and Climate has published a series of deep-dive reports](https://globalassemblies.org/en/insights/deep-dives/) drawing on global and community assembly inputs over the last year.
