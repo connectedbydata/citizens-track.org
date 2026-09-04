@@ -47,6 +47,8 @@ We've created LinkedIn and Bluesky accounts for the Citizens' Track. We're still
 * [Follow us on LinkedIn](https://www.linkedin.com/company/citizens-track-ai)
 * [Follow us on Bluesky](https://bsky.app/profile/ai.citizens-track.org)
 
+We'll be working next on moving this e-mail list to a proper mailing list platform. 
+
 ## Funding Foundations and Growing Governance
 
 The design phase of the Citizens' Track on AI has been carried out with in-kind support from Iswe Foundation, Connected by Data, University of Sheffield, Ada Lovelace Institute and a number of other partners, as well as a small start-up mandate from the Swiss Ministry of Foreign Affairs. It has been run as an informal partnership project. 
@@ -70,4 +72,20 @@ In parallel to fundraising, we've been working to bootstrap the future governanc
 
 We're committed to working collaboratively and in the open. 
 
-## Funding Foundations and Growing Governance
+## Community Updates
+
+Have you been running a project engaging the public on AI? Get in touch to make sure it is featured in the [Public AI Voice and Engagement Case Book](https://pave.pairs.site), and so we can share news in future Citizens' Track on AI newsletters. 
+
+* [Odyssean Foundation](https://www.odysseaninstitute.org/post/an-odyssey-launched-update-on-the-first-odyssean-process) and [House of the People](https://www.houseofthepeople.uk/uk-citizens-assembly-ai) have shared updates on a Citizens Assembly on AI running in the UK this November, supported by a series of Community Assemblies in the coming months. 
+* The themes of the [2027 Geneva AI Summit](https://genevaaisummit.swiss/) have been announced, and a call is open for 'Road to Geneva' events.
+* The [Participatory AI Governance Hub (PAIGHub)](https://paighub.org/) website has launched, sharing more info on this platform to connect different groups working on participatory approaches to AI Governance
+* The [2026 Global Citizens Assembly on Food Systems and Climate has published a series of deep-dive reports](https://globalassemblies.org/en/insights/deep-dives/) drawing on global and community assembly inputs over the last year.
+
+## Keep in touch
+
+Any questions? Ideas? Get in touch by reply, or mail contact@citizens-track.org. 
+
+Thank you once again for your support
+
+Tim
+Citizens' Track on AI convenor
