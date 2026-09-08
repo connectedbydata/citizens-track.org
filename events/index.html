@@ -40,6 +40,18 @@ permalink: /events/
                                         <div class="event-full-date">
                                             <i class="fa fa-calendar-o"></i> {{ event.date | date: "%A, %B %d, %Y" }}
                                         </div>
+                                        {% assign event_time = event.time %}
+                                        {% if event_time == nil or event_time == "" %}
+                                            {% assign time_check = event.date | date: "%H:%M" %}
+                                            {% if time_check != "00:00" %}
+                                                {% assign event_time = event.date | date: "%H:%M %Z" %}
+                                            {% endif %}
+                                        {% endif %}
+                                        {% if event_time %}
+                                        <div class="event-time-tag">
+                                            <i class="fa fa-clock-o"></i> {{ event_time }}
+                                        </div>
+                                        {% endif %}
                                         {% if event.location %}
                                         <div class="event-location-tag">
                                             <i class="fa fa-map-marker"></i> {{ event.location }}
@@ -81,6 +93,17 @@ permalink: /events/
                     <article class="update-article">
                         <div class="update-meta" style="display: flex; align-items: center; gap: 15px; flex-wrap: wrap;">
                             <span><i class="fa fa-calendar-check-o" style="color: #89afad; margin-right: 4px;"></i> {{ event.date | date: "%B %d, %Y" }}</span>
+                            {% assign past_event_time = event.time %}
+                            {% if past_event_time == nil or past_event_time == "" %}
+                                {% assign past_time_check = event.date | date: "%H:%M" %}
+                                {% if past_time_check != "00:00" %}
+                                    {% assign past_event_time = event.date | date: "%H:%M %Z" %}
+                                {% endif %}
+                            {% endif %}
+                            {% if past_event_time %}
+                            <span style="opacity: 0.6;">&bull;</span>
+                            <span><i class="fa fa-clock-o" style="color: #89afad; margin-right: 4px;"></i> {{ past_event_time }}</span>
+                            {% endif %}
                             {% if event.location %}
                             <span style="opacity: 0.6;">&bull;</span>
                             <span><i class="fa fa-map-marker" style="color: #89afad; margin-right: 4px;"></i> {{ event.location }}</span>

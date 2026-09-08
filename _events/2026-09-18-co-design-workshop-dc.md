@@ -1,7 +1,8 @@
 ---
 layout: event
 title: "Catalysing community dialogue on Artificial Intelligence - Co-design workshop: a toolkit for community assemblies?"
-date: 2026-09-18 16:00:00 +0500
+date: 2026-09-18 15:00:00 +0100
+time: "15:00 – 17:00 EDT"
 author: "Tim Davies"
 author_url: "https://connectedbydata.org/people/tim-davies"
 location: "ASU, 1800 I Street, Washington, DC 20006"

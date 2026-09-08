@@ -1,7 +1,8 @@
 ---
 layout: event
 title: "Creating a toolkit for community assemblies on AI"
-date: 2026-09-16 16:00:00 +0800
+date: 2026-09-16 16:00:00 +0100
+time: "16:00 – 18:00 PDT"
 author: "Tim Davies"
 author_url: "https://connectedbydata.org/people/tim-davies"
 location: "Gray Area / Grand Theater; 2665 Mission Street; San Francisco, CA 94110"

@@ -41,6 +41,18 @@
                             <div class="event-full-date">
                                 <i class="fa fa-calendar-o"></i> {{ event.date | date: "%A, %B %d, %Y" }}
                             </div>
+                            {% assign event_time = event.time %}
+                            {% if event_time == nil or event_time == "" %}
+                                {% assign time_check = event.date | date: "%H:%M" %}
+                                {% if time_check != "00:00" %}
+                                    {% assign event_time = event.date | date: "%H:%M %Z" %}
+                                {% endif %}
+                            {% endif %}
+                            {% if event_time %}
+                            <div class="event-time-tag">
+                                <i class="fa fa-clock-o"></i> {{ event_time }}
+                            </div>
+                            {% endif %}
                             {% if event.location %}
                             <div class="event-location-tag">
                                 <i class="fa fa-map-marker"></i> {{ event.location }}

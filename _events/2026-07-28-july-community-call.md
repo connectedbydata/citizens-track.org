@@ -2,6 +2,7 @@
 layout: event
 title: "Citizens' Track Community Call: 30th July"
 date: 2026-07-28 16:00:00 +0100
+time: "1:00 PM – 2:00 PM UTC (2:00 PM BST / 3:00 PM CEST / 9:00 AM EDT)"
 author: "Tim Davies"
 author_url: "https://connectedbydata.org/people/tim-davies"
 location: "Online (Zoom)"

@@ -294,6 +294,19 @@ header a,
             width: 14px;
         }
     }
+
+    .event-time-tag {
+        font-family: 'Outfit', sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        color: #555;
+        
+        i {
+            color: $brand-accent;
+            margin-right: 4px;
+            width: 14px;
+        }
+    }
     
     .event-location-tag {
         font-family: 'Outfit', sans-serif;

@@ -2,6 +2,7 @@
 layout: event
 title: "Community Assembly Toolkit Co-design: Briefing & workshop"
 date: 2026-09-14 16:00:00 +0100
+time: "15:00 UTC (16:00 BST / 9:00 Mexico City / 20:30 Delhi)"
 author: "Tim Davies"
 author_url: "https://connectedbydata.org/people/tim-davies"
 location: "Online (Zoom)"

@@ -2,6 +2,7 @@
 layout: event
 title: "A Citizens’ Track on AI: Agency, Alignment & Accountability"
 date: 2026-07-07 08:00:00 +0100
+time: "08:00 – 09:30 CEST"
 author: "Tim Davies"
 author_url: "https://connectedbydata.org/people/tim-davies"
 location: "Geneva Graduate Institute, Geneva, Switzerland"

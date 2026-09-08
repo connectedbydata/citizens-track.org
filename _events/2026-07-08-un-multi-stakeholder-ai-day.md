@@ -2,6 +2,7 @@
 layout: event
 title: "A Citizens Track on AI Governance: From Theory to Practice"
 date: 2026-07-08 16:15:00 +0100
+time: "16:15 – 17:45 CEST"
 author: "Tim Davies"
 author_url: "https://connectedbydata.org/people/tim-davies"
 location: "Palais des Nations, Geneva, Switzerland"

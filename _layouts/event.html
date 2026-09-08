@@ -32,7 +32,15 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-                    {% if page.location or page.registration_link or page.date %}
+                    {% assign event_time = page.time %}
+                    {% if event_time == nil or event_time == "" %}
+                        {% assign time_check = page.date | date: "%H:%M" %}
+                        {% if time_check != "00:00" %}
+                            {% assign event_time = page.date | date: "%H:%M %Z" %}
+                        {% endif %}
+                    {% endif %}
+
+                    {% if page.location or page.registration_link or page.date or event_time %}
                     <div class="event-meta-card">
                         <div class="event-meta-grid">
                             <div class="event-meta-item">
@@ -44,6 +52,18 @@
                                     <span class="event-meta-value">{{ page.date | date: "%A, %B %d, %Y" }}</span>
                                 </div>
                             </div>
+
+                            {% if event_time %}
+                            <div class="event-meta-item">
+                                <div class="event-meta-icon">
+                                    <i class="fa fa-clock-o"></i>
+                                </div>
+                                <div class="event-meta-content">
+                                    <span class="event-meta-label">Time</span>
+                                    <span class="event-meta-value">{{ event_time }}</span>
+                                </div>
+                            </div>
+                            {% endif %}
 
                             {% if page.location %}
                             <div class="event-meta-item">
