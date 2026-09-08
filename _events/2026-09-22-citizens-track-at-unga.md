@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "The Sidebar @ UNGA: Who Gets a Say in AI? Taking Public Voice from Community Dialogue to Global Governance"
-date: 2026-09-22 10:30:00 +0100
+date: 2026-09-22 10:30:00 +0500
 time: "10:30 – 12:00 EDT"
 author: "Tim Davies"
 author_url: "https://connectedbydata.org/people/tim-davies"
