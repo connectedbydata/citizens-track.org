@@ -1,11 +1,11 @@
 ---
 layout: event
 title: "The Sidebar @ UNGA: Who Gets a Say in AI? Taking Public Voice from Community Dialogue to Global Governance"
-date: 2026-09-22 10:30:00 +0500
+date: 2026-09-22 10:30:00 +0100
 time: "10:30 – 12:00 EDT"
 author: "Tim Davies"
 author_url: "https://connectedbydata.org/people/tim-davies"
-location: "The Sidebar: 134 West 29th Street (2nd Floor) "
+location: "The Sidebar, 134 West 29th Street (2nd Floor), New York, NY"
 registration_link: 
 excerpt: "Join us as part of The Sidebar to learn about the Citizens' Track and explore practical resources for meaningful public dialogue on AI."
 ---

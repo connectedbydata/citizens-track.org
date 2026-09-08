@@ -88,7 +88,7 @@ We're running a series of online and in-person workshops in September ahead of t
 <div class="toolkit-events-container" style="display: flex; flex-direction: column; gap: 24px; margin: 25px 0 35px;">
 {% assign all_events = site.events | sort: 'date' %}
 {% for event in all_events %}
-{% if event.path contains "2026-09-14" or event.path contains "2026-09-16" or event.path contains "2026-09-18" %}
+{% if event.path contains "2026-09-14" or event.path contains "2026-09-16" or event.path contains "2026-09-18" or event.path contains "2026-09-22" %}
   <div class="event-card">
     <div class="event-card-header">
       <div class="event-date-badge">
