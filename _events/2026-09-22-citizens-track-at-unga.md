@@ -6,7 +6,7 @@ time: "10:30 – 12:00 EDT"
 author: "Tim Davies"
 author_url: "https://connectedbydata.org/people/tim-davies"
 location: "The Sidebar, 134 West 29th Street (2nd Floor), New York, NY"
-registration_link: 
+registration_link: https://luma.com/5vttnftu
 excerpt: "Join us as part of The Sidebar to learn about the Citizens' Track and explore practical resources for meaningful public dialogue on AI."
 ---
 
