@@ -31,11 +31,11 @@ To enable this, **we’re running a co-design sprint over October 2026 to create
     </div>
     <div class="cta-highlight-item">
       <i class="fa fa-clock-o"></i>
-      <div><strong>Commitment:</strong> 2–6 hrs/week across October</div>
+      <div><strong>Commitment:</strong> 2–6 hrs/week Sept 28th - Oct 26th</div>
     </div>
     <div class="cta-highlight-item">
       <i class="fa fa-globe"></i>
-      <div><strong>Format:</strong> 5 weekly online calls + async drafting</div>
+      <div><strong>Format:</strong> 5 x weekly online call + async drafting (Mondays @ 15:00 UTC)</div>
     </div>
   </div>
   <div class="cta-action-area">
