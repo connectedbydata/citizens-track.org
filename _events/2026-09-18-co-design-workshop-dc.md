@@ -1,16 +1,14 @@
 ---
 layout: event
 title: "Catalysing community dialogue on Artificial Intelligence - Co-design workshop: a toolkit for community assemblies?"
-date: 2026-09-18 15:00:00 +0100
+date: 2026-09-18 16:00:00 +0500
 time: "15:00 – 17:00 EDT"
 author: "Tim Davies"
 author_url: "https://connectedbydata.org/people/tim-davies"
 location: "ASU, 1800 I Street, Washington, DC 20006"
-registration_link: 
+registration_link: https://luma.com/osiq0ajl
 excerpt: "Join us and the Consortium for Science, Policy and Outcomes of Arizona State University in Washington DC for a workshop and discussion on community assemblies on AI."
 ---
-
-> Registration link coming soon
 
 The impacts of AI, and the wider forces around it, are arriving fast. But what happens when communities have time to pause, learn about, share different perspectives on, and discuss AI? 
 
