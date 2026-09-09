@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "Creating a toolkit for community assemblies on AI"
-date: 2026-09-17 16:00:00 +0100
+date: 2026-09-17 09:00:00 +0800
 time: "09:00 – 11:00 PDT"
 author: "Tim Davies"
 author_url: "https://connectedbydata.org/people/tim-davies"
