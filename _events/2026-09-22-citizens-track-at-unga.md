@@ -10,8 +10,6 @@ registration_link: https://luma.com/5vttnftu
 excerpt: "Join us as part of The Sidebar to learn about the Citizens' Track and explore practical resources for meaningful public dialogue on AI."
 ---
 
-> Registration link coming soon
-
 AI governance is becoming a global priority. But as governments, companies, and international institutions debate the rules that should shape AI, a fundamental question remains: how do ordinary people get a meaningful say in decisions that will affect their lives?
 
 Around the world, communities are already experimenting with ways to involve the public in conversations about AI. The Citizens' Track on AI has mapped more than 80 public engagement initiatives globally and is working to connect grassroots dialogue with international processes such as the UN Global Dialogue on AI Governance (UNGDAI).
