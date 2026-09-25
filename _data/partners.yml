@@ -1,10 +1,12 @@
 - name: "Global Citizens' Assembly"
   url: "https://globalassemblies.org/"
   logo: "img/logo/globalassembly.svg"
+  invert_on_light: true
 
 - name: "Connected by Data"
   url: "https://connectedbydata.org"
   logo: "img/logo/cbd.png"
+  invert_on_light: true
 
 - name: "PAIRS"
   url: "https://pairs.site"
@@ -17,6 +19,7 @@
 - name: "University of Sheffield | Centre for Machine Intelligence"
   url: "https://sheffield.ac.uk/machine-intelligence"
   logo: "img/logo/cmi.png"
+  invert_on_light: true
 
 - name: "Aapti Institute"
   url: "https://www.aapti.in"
@@ -38,9 +41,10 @@
 - name: "ISWE Foundation"
   url: "https://iswe.org/"
   logo: "img/logo/iswe.webp"
+  invert_on_light: true
 
 - name: "Global Coalition for Inclusive AI"
-  url: "www.global-ai-dialogue.org"
+  url: "https://www.global-ai-dialogue.org"
   logo: "img/logo/global-coalition-for-inclusive-ai.png"
 
 - name: "AI & Democracy Foundation"
@@ -52,7 +56,7 @@
   logo: "img/logo/deliberativa.png"
 
 - name: "Our AI Collective"
-  url: "www.our-ai-collective.info"
+  url: "https://www.our-ai-collective.info"
   logo: "img/logo/our-ai-collective.png"
 
 - name: "Global AI Dialogues"
@@ -66,6 +70,7 @@
 - name: "SciencesPo PSIA Tech & Global Affairs Innovation Hub"
   url: "https://www.sciencespo.fr/psia-innovation-hub/"
   logo: "img/logo/sciencespo-psia-tech-global-affairs-innovation-hub.png"
+  invert_on_light: true
 
 
 - name: "Odyssean Institute"
@@ -87,10 +92,12 @@
 - name: "Dialogue on Technology Project"
   url: "https://www.sfu.ca/dialogue/what-we-do/initiatives/dot.html"
   logo: "img/logo/dialogue-on-technology-project.png"
+  invert_on_light: true
 
 - name: "GWU and NSF-NIST TRAILS"
   url: "#"
   logo: "img/logo/gwu-and-nsf-nist-trails.png"
+  invert_on_light: true
 
 - name: "Youth AI Governance Forum (YAIGF)"
   url: "https://yaigf.org/"
@@ -111,15 +118,16 @@
 - name: "University of Glasgow"
   url: "https://www.gla.ac.uk/schools/socialpolitical/staff/markwong/"
   logo: "img/logo/university-of-glasgow.png"
+  invert_on_light: true
 
 - name: "School of Collective Intelligence - SCI"
   url: "https://sci.um6p.ma"
   logo: "img/logo/school-of-collective-intelligence-sci.png"
 
 - name: "Missions Publiques"
-  url: "www.missionspubliques.org"
+  url: "https://www.missionspubliques.org"
   logo: "img/logo/missions-publiques.png"
 
 - name: "PresentIA"
-  url: "www.presentia.ch"
+  url: "https://www.presentia.ch"
   logo: "img/logo/presentia.png"

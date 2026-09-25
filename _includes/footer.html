@@ -1,7 +1,24 @@
-<footer class="text-center" style="padding: 20px 0;">
+<footer class="site-footer text-center">
     <div class="container">
-        <p class="text-muted small">
-            Image credits: AtlasStudio from <a href="https://thenounproject.com/photo/photo-48aGMk/" target="_blank" title=" Photo">Noun Project</a> (CC BY-NC-ND 2.0)
+        <ul class="footer-nav-links list-inline">
+            <li>
+                <a href="{% if page.layout == 'front' %}#subscribeModal{% else %}{{ '/' | relative_url }}#about{% endif %}" {% if page.layout == 'front' %}data-toggle="modal"{% endif %}>Subscribe</a>
+            </li>
+            <li class="footer-divider" aria-hidden="true">|</li>
+            <li>
+                <a class="{% if page.layout == 'front' %}page-scroll{% endif %}" href="{% if page.layout == 'front' %}#contact{% else %}{{ '/' | relative_url }}#contact{% endif %}">Contact</a>
+            </li>
+            <li class="footer-divider" aria-hidden="true">|</li>
+            <li>
+                <a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a>
+            </li>
+            <li class="footer-divider" aria-hidden="true">|</li>
+            <li>
+                <a href="{{ '/supporters/' | relative_url }}">Supporters</a>
+            </li>
+        </ul>
+        <p class="text-muted small footer-credits">
+            Image credits: AtlasStudio from <a href="https://thenounproject.com/photo/photo-48aGMk/" target="_blank" rel="noopener" title=" Photo">Noun Project</a> (CC BY-NC-ND 2.0)
         </p>
     </div>
 </footer>
