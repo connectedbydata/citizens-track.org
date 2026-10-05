@@ -185,35 +185,60 @@ header a,
     }
 }
 
-// Event Tags (pill badges)
+// Event Tags & Badges
 .event-tag {
     display: inline-block;
-    background-color: $brand-accent-light;
-    color: $brand-accent-dark;
+    background-color: #e2eeec;
+    color: #1a4442;
     font-family: 'Outfit', sans-serif;
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 4px 10px;
-    border-radius: 20px;
-    border: 1px solid rgba($brand-accent, 0.15);
-    line-height: 1;
+    letter-spacing: 0.8px;
+    padding: 3px 10px;
+    border-radius: 12px;
+    border: 1px solid rgba($brand-accent, 0.4);
+    line-height: 1.3;
 }
 
+// Dedicated high-contrast write-up badge for cards and listings on light backgrounds
+.writeup-tag, .event-tag-writeup {
+    display: inline-flex;
+    align-items: center;
+    background-color: #dcebe8;
+    color: #133e3c;
+    font-family: 'Outfit', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    padding: 3px 10px;
+    border-radius: 12px;
+    border: 1px solid rgba(76, 115, 113, 0.4);
+    line-height: 1.3;
+}
+
+// Light pill badge for dark headers (e.g. short-header)
 .event-tag-light {
     display: inline-block;
-    background-color: rgba($brand-accent, 0.2);
-    color: white;
+    background-color: rgba($brand-accent, 0.25);
+    color: #ffffff;
     font-family: 'Outfit', sans-serif;
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 4px 10px;
+    padding: 4px 12px;
     border-radius: 20px;
-    border: 1px solid rgba($brand-accent, 0.3);
+    border: 1px solid rgba($brand-accent, 0.5);
     line-height: 1;
+
+    &.writeup-badge {
+        background-color: $brand-accent;
+        color: $brand-dark;
+        border-color: lighten($brand-accent, 12%);
+        font-weight: 800;
+    }
 }
 
 // Events Section & Event Cards
@@ -406,6 +431,45 @@ header a,
     
     &:hover {
         border-color: rgba($brand-accent, 0.35);
+    }
+}
+
+// Event Detail Slim Line (for Event Write-ups)
+.event-held-line {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 20px;
+    margin-bottom: 35px;
+    background-color: #edf3f2;
+    border-left: 4px solid $brand-accent;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #475467;
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.5;
+
+    i.fa-calendar-check-o {
+        color: $brand-accent-dark;
+        font-size: 18px;
+        flex-shrink: 0;
+    }
+
+    strong {
+        color: $text-dark;
+        font-weight: 600;
+    }
+
+    .event-held-meta {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 6px 14px;
+    }
+
+    @media (max-width: 767px) {
+        font-size: 14px;
+        padding: 10px 14px;
     }
 }
 
@@ -684,6 +748,50 @@ header.short-header {
             &:hover {
                 transform: translateY(-2px);
                 box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+
+    .logo-row, .logos-row {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 20px 28px;
+        margin: 25px 0 35px;
+
+        p {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            gap: 20px 28px;
+            margin: 0;
+            width: 100%;
+        }
+
+        strong, a {
+            display: inline-flex;
+            align-items: center;
+            margin: 0;
+            font-weight: normal;
+        }
+
+        img {
+            height: 38px;
+            max-height: 44px;
+            width: auto;
+            max-width: 160px;
+            object-fit: contain;
+            margin: 0;
+            display: inline-block;
+            border-radius: 4px;
+            box-shadow: none;
+            transition: opacity 0.2s ease, transform 0.2s ease;
+
+            &:hover {
+                opacity: 0.85;
+                transform: translateY(-1px);
             }
         }
     }

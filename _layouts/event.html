@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
                         <div style="margin-bottom: 15px;">
-                            <span class="event-tag-light">Event</span>
+                            <span class="event-tag-light{% if page.writeup %} writeup-badge{% endif %}">{% if page.writeup %}Event Write-up{% else %}Event{% endif %}</span>
                         </div>
                         <div class="news-date"
                             style="color: {{ site.brand-accent | default: '#89afad' }}; font-family: 'Outfit', sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 15px;">
@@ -40,7 +40,16 @@
                         {% endif %}
                     {% endif %}
 
-                    {% if page.location or page.registration_link or page.date or event_time %}
+                    {% if page.writeup %}
+                    <div class="event-held-line">
+                        <i class="fa fa-calendar-check-o"></i>
+                        <div class="event-held-meta">
+                            <span><strong>Event took place:</strong> {{ page.date | date: "%A, %B %d, %Y" }}</span>
+                            {% if event_time %}<span>&bull; <i class="fa fa-clock-o" style="color: #89afad; margin-right: 2px;"></i> {{ event_time }}</span>{% endif %}
+                            {% if page.location %}<span>&bull; <i class="fa fa-map-marker" style="color: #89afad; margin-right: 2px;"></i> {{ page.location }}</span>{% endif %}
+                        </div>
+                    </div>
+                    {% elsif page.location or page.registration_link or page.date or event_time %}
                     <div class="event-meta-card">
                         <div class="event-meta-grid">
                             <div class="event-meta-item">
@@ -94,6 +103,7 @@
                         {{ content }}
                     </div>
 
+                    {% unless page.writeup %}
                     {% if page.registration_link %}
                     <div class="event-bottom-cta"
                         style="margin: 45px 0 35px; padding: 28px; background: linear-gradient(135deg, #edf3f2 0%, #f4f8f7 100%); border-radius: 16px; text-align: center; border: 1px solid rgba(137, 175, 173, 0.35); box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
@@ -107,6 +117,7 @@
                         </a>
                     </div>
                     {% endif %}
+                    {% endunless %}
 
                     <hr style="margin: 50px 0 30px; border-color: rgba(0,0,0,0.06); border-width: 1px;">
                     <div class="post-navigation">

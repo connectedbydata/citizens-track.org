@@ -92,6 +92,9 @@ permalink: /events/
                     {% for event in past_events_reversed %}
                     <article class="update-article">
                         <div class="update-meta" style="display: flex; align-items: center; gap: 15px; flex-wrap: wrap;">
+                            {% if event.writeup %}
+                            <span class="writeup-tag">Event Write-up</span>
+                            {% endif %}
                             <span><i class="fa fa-calendar-check-o" style="color: #89afad; margin-right: 4px;"></i> {{ event.date | date: "%B %d, %Y" }}</span>
                             {% assign past_event_time = event.time %}
                             {% if past_event_time == nil or past_event_time == "" %}
@@ -121,12 +124,12 @@ permalink: /events/
                         </div>
 
                         <h2 class="update-heading">
-                            <a href="{{ event.url | relative_url }}">{{ event.title }}</a>
+                            <a href="{{ event.url | relative_url }}">{% if event.writeup %}Event write-up: {% endif %}{{ event.title }}</a>
                         </h2>
                         <div class="update-content-excerpt">
                             {{ event.excerpt | strip_html | truncatewords: 50 }}
                         </div>
-                        <a href="{{ event.url | relative_url }}" class="btn btn-default">Read Notes & Summary <i
+                        <a href="{{ event.url | relative_url }}" class="btn btn-default">Read {% if event.writeup %}Event Write-up{% else %}Notes & Summary{% endif %} <i
                                 class="fa fa-angle-right" style="margin-left: 5px;"></i></a>
                     </article>
                     {% else %}

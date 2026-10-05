@@ -8,10 +8,23 @@ title: Updates
         <div class="row">
             <div class="col-lg-12 col-md-12">
 
-                {% for post in site.posts %}
-                <article class=" update-article">
+                {% assign writeup_events = "" | split: "" %}
+                {% for event in site.events %}
+                    {% if event.writeup %}
+                        {% assign writeup_events = writeup_events | push: event %}
+                    {% endif %}
+                {% endfor %}
+
+                {% assign all_updates = site.posts | concat: writeup_events | sort: 'date' | reverse %}
+
+                {% for post in all_updates %}
+                <article class="update-article">
                     <div class="update-meta" style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
                         <span>{{ post.date | date: "%B %d, %Y" }}</span>
+                        {% if post.writeup %}
+                        <span style="opacity: 0.6;">&bull;</span>
+                        <span class="writeup-tag">Event Write-up</span>
+                        {% endif %}
                         {% if post.author %}
                         <span style="opacity: 0.6;">&bull;</span>
                         <span>by
@@ -26,12 +39,12 @@ title: Updates
                     </div>
 
                     <h2 class="update-heading">
-                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                        <a href="{{ post.url | relative_url }}">{% if post.writeup %}Event write-up: {% endif %}{{ post.title }}</a>
                     </h2>
                     <div class="update-content-excerpt">
                         {{ post.excerpt | strip_html | truncatewords: 50 }}
                     </div>
-                    <a href="{{ post.url | relative_url }}" class="btn btn-default">Read Full Post <i
+                    <a href="{{ post.url | relative_url }}" class="btn btn-default">Read {% if post.writeup %}Event Write-up{% else %}Full Post{% endif %} <i
                             class="fa fa-angle-right" style="margin-left: 5px;"></i></a>
                 </article>
                 {% else %}
