@@ -83,12 +83,12 @@ To provide an opportunity to find out more, and also invite a larger number of p
 
 ### Join a briefing and design workshop session 
 
-We're running a series of online and in-person workshops in September ahead of the co-design cohort.
+We're running a series of online and in-person workshops in September and October in support of the co-design cohort.
 
 <div class="toolkit-events-container" style="display: flex; flex-direction: column; gap: 24px; margin: 25px 0 35px;">
-{% assign all_events = site.events | sort: 'date' %}
+{% assign all_events = site.events | sort: 'date' | reverse  %}
 {% for event in all_events %}
-{% if event.path contains "2026-09-14" or event.path contains "2026-09-16" or event.path contains "2026-09-18" or event.path contains "2026-09-22" %}
+{% if event.path contains "2026-09-14" or event.path contains "2026-09-16" or event.path contains "2026-09-18" or event.path contains "2026-09-22" or event.path contains "2026-10-20" %}
   <div class="event-card">
     <div class="event-card-header">
       <div class="event-date-badge">
@@ -130,14 +130,20 @@ We're running a series of online and in-person workshops in September ahead of t
       <a href="{{ event.url | relative_url }}" class="event-details-link">
         View Details <i class="fa fa-arrow-right"></i>
       </a>
-      {% if event.registration_link %}
-      <a href="{{ event.registration_link }}" target="_blank" class="btn btn-primary btn-sm event-register-btn">
-        <i class="fa fa-ticket"></i> Register
-      </a>
+      {% if event.writeup %}
+          <a href="{{ event.url | relative_url }}" target="_blank" class="btn btn-primary btn-sm event-register-btn">
+             Read writeup
+          </a>
       {% else %}
-      <span class="text-muted" style="font-size: 13px; font-family: 'Outfit', sans-serif;">
-        <i class="fa fa-clock-o"></i> Registration coming soon
-      </span>
+        {% if event.registration_link %}
+          <a href="{{ event.registration_link }}" target="_blank" class="btn btn-primary btn-sm event-register-btn">
+            <i class="fa fa-ticket"></i> Register
+          </a>
+          {% else %}
+          <span class="text-muted" style="font-size: 13px; font-family: 'Outfit', sans-serif;">
+            <i class="fa fa-clock-o"></i> Registration coming soon
+          </span>
+        {% endif %}
       {% endif %}
     </div>
   </div>
