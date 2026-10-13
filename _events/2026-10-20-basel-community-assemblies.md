@@ -5,7 +5,7 @@ date: 2026-10-20 09:00:00 -0100
 time: "09:00 - 13:00 CET"
 author: "Tim Davies"
 author_url: "https://connectedbydata.org/people/tim-davies"
-location: "Basel, Switzerland (tbc)"
+location: "Casa Bethesda, Gellertstrasse 156, 4052 Basel, Switzerland"
 registration_link: https://docs.google.com/forms/d/e/1FAIpQLSeN0jriiWAdvd6h0IKkIcOkd7ywVm5kAuXauF_nJWsoTJ_vuw/viewform?usp=header
 writeup: false
 excerpt: "Join the Citizens' Track on AI workshop on Tuesday, 20th October to explore how we can create engaging, inclusive and impactful public dialogue on the future of Artificial Intelligence."
@@ -21,4 +21,4 @@ As a 'Road to Geneva' event ahead of the 2027 Geneva AI Summit, and as part of a
 * Shape a draft toolkit for community assemblies: providing flexible resources for joined-up local dialogues on AI
 * Explore opportunities for community assemblies in Switzerland ahead of the 2027 AI Summit
 
-This is a free in-person event taking place in Basel, Swizterland (Venue TBC) on 20th October 9 AM to 12 PM, followed by lunch.
+This is a free in-person event taking place in at [Casa Bethesda, Basel, Swizterland](https://www.casa-bethesda.ch/) on 20th October 9 AM to 12 PM, followed by lunch.
