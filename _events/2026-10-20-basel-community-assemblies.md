@@ -11,6 +11,8 @@ writeup: false
 excerpt: "Join the Citizens' Track on AI workshop on Tuesday, 20th October to explore how we can create engaging, inclusive and impactful public dialogue on the future of Artificial Intelligence."
 ---
 
+![Road to Geneva Logo](/assets/events/AI_Summit_Geneva2027_Logo_RoadTo_Pos_RGB.gif)
+
 Join the Citizens' Track on AI workshop on Tuesday, 20th October to explore how we can create engaging, inclusive and impactful public dialogue on the future of Artificial Intelligence.
 
 As a 'Road to Geneva' event ahead of the 2027 Geneva AI Summit, and as part of a global effort to put public hopes and concerns at the centre of responses to AI, we will:
@@ -19,4 +21,4 @@ As a 'Road to Geneva' event ahead of the 2027 Geneva AI Summit, and as part of a
 * Shape a draft toolkit for community assemblies: providing flexible resources for joined-up local dialogues on AI
 * Explore opportunities for community assemblies in Switzerland ahead of the 2027 AI Summit
 
-This is an in person event taking place in Basel, Swizterland (Venue TBC) on 20th October 9 AM to 12 PM, followed by lunch.
+This is a free in-person event taking place in Basel, Swizterland (Venue TBC) on 20th October 9 AM to 12 PM, followed by lunch.
