@@ -10,7 +10,7 @@ In September the Citizens' Track on AI, along with our partners Iswe Foundation,
 
 In a fortnight where AI was top of the news agenda, and when AI executives were [calling, at least rhetorically, for AI to be shaped by democratic process](https://openai.com/index/sam-altman-un-security-council-remarks/), our roundtables explored both the opportunity to combine top-down and bottom-up efforts for democratic AI, and the challenges ahead in supporting organisations and funders to take a coordinated approach to shaping the future of AI. 
 
-While the roundtable discussions took place under Chatham House Rule, and covered a lot of ground, we've distilled five key messages here. 
+The roundtable discussions took place under Chatham House Rule and covered a lot of ground: we've distilled five key messages here. 
 
 ### Five key messages
 
