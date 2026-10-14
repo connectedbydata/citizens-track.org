@@ -22,3 +22,5 @@ As a 'Road to Geneva' event ahead of the 2027 Geneva AI Summit, and as part of a
 * Explore opportunities for community assemblies in Switzerland ahead of the 2027 AI Summit
 
 This is a free in-person event taking place in at [Casa Bethesda, Basel, Swizterland](https://www.casa-bethesda.ch/) on 20th October 9 AM to 12 PM, followed by lunch.
+
+> We are able to offer limited travel support (e.g. train tickets / mileage) to participants travelling within Switzerland to join us. Contact tim@connectedbydata.org if this would help your participation.
