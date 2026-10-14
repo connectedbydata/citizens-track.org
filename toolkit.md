@@ -14,76 +14,53 @@ Community assemblies provide space for public dialogue on AI. There are many for
 
 Over the coming months, the Citizens’ Track on AI aims to support community assemblies across the world that can feed into the next UN Global Dialogue on AI Governance, the 2027 Geneva AI Summit, and local and national AI governance processes. 
 
-To enable this, **we’re running a co-design sprint over October 2026 to create a Community Assembly toolkit**, and a series of events in September to feed into the toolkit design.
+To enable this, **we’ve been running a co-design sprint over October 2026 to create a Community Assembly toolkit**, and we ran a series of events in September to feed into the toolkit design.
 
 <div class="toolkit-cta-card">
   <div class="cta-badge">
-    <i class="fa fa-users"></i> Cohort Applications Open
+    <i class="fa fa-users"></i> Coming soon
   </div>
-  <h3 class="cta-heading">Apply to join the October Co-Design Sprint</h3>
+  <h3 class="cta-heading">The Community Assembly Toolkit</h3>
   <p class="cta-intro">
-    Help shape an open, globally adaptable toolkit for community assemblies on AI. We're seeking a diverse cohort of 10–15 practitioners, educators, deliberative designers, and community facilitators to co-create the resource over five weekly online sessions and asynchronous collaboration.
+    In November we will share the first draft of the Community Assembly Toolkit, to help you organise your own local dialogue on AI. We're working with our co-design cohort to create a flexible resource that can step groups through through learning, dialogue and action. 
   </p>
   <div class="cta-highlights">
     <div class="cta-highlight-item">
       <i class="fa fa-calendar-check-o"></i>
-      <div><strong>Deadline:</strong> 25th Sept 2026 <em>(rolling review)</em></div>
+      <div><strong>Launching:</strong> mid-November 2026 <em>(rolling review)</em></div>
     </div>
     <div class="cta-highlight-item">
       <i class="fa fa-clock-o"></i>
-      <div><strong>Commitment:</strong> 2–6 hrs/week Sept 28th - Oct 26th</div>
+      <div><strong>Containing:</strong> Workshop agendas, worksheets, facilitator guidance</div>
     </div>
     <div class="cta-highlight-item">
       <i class="fa fa-globe"></i>
-      <div><strong>Format:</strong> 5 x weekly online call + async drafting (Mondays @ 15:00 UTC)</div>
+      <div><strong>Translation ready:</strong> Localise the toolkit to deliver with your community </div>
     </div>
   </div>
   <div class="cta-action-area">
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSetV2DYnT9ZRv1EiU0UPleI6QTQQAPUh3cYO6YG2N3-q0Ul1g/viewform?usp=dialog" target="_blank" class="btn-apply">
-      Apply to Join the Cohort <i class="fa fa-external-link"></i>
+    <a href="/#subscribe" target="_blank" class="btn-apply">
+      Get updates when the toolkit launches <i class="fa fa-external-link"></i>
     </a>
-    <p class="cta-note">Participation is free. Spaces are limited to maintain a collaborative cohort.</p>
+    
   </div>
 </div>
 
-Building on learning from the [Global Citizens' Assembly](https://globalassemblies.org/en/), and the [Assemblis Community Assembly Guide](https://assemblis.org/en/about/guide/), we're aiming to create a resource that contains: 
 
-* Practical guidance on running a community assembly;
-* Accessible and adaptable modules to support deliberation on topics related to AI with diverse public participation groups;
-* Suggested activities to capture and document group feedback.
+## The Co-design Sprint
 
-We hope this will result in a ready-to-use resource for anyone who wants to organise their own community assembly on AI, supporting:
-
-* Capacity building  
-* Critical AI literacy; and   
-* Democratic dialogue 
-
-about future social impacts of artificial intelligence and emerging technologies. 
-
-## Join the first co-design sprint
-
-We know that many other people are also thinking about the design of resources like this, and that effective resources need to be adaptable to different cultural, linguistic and local contexts. That’s why we’re inviting a cohort to join us over October who can bring experience and expertise related to:
+We know that many other people are also thinking about the design of resources like this, and that effective resources need to be adaptable to different cultural, linguistic and local contexts. That’s why we’ve been working with a fantastic cohort of collaborators to join us over October who can bring experience and expertise related to:
 
 * Building critical AI literacy amongst non-experts; 
 * Designing participation and deliberation activities;
 * Current issues in AI governance;
 * Facilitating community assemblies.
 
-The sprint will take the form of **five 90 minute online meetings** (weekly) **and asynchronous working** over the course of the month. 
+The sprint is taking the form of **five 90 minute online meetings** (weekly) **and asynchronous working** over the course of October, and we'll be sharing results soon.
 
-Participants are expected to give 2 - 6 hours a week to their participation, and to draft, review or suggest ideas and materials in between calls. 
+### Workshop reports
 
-As this is part of the early start-up phase of the Citizens Track on AI, we are not in a position to offer funding to sprint participants. 
-
-We are offering this as a free programme, designed to also be of value to participants who may be working on critical AI literacy and capacity building, developing and planning their own community engagement and learning activities around AI, or interested in facilitating community assemblies on AI in the future. 
-
-We are seeking to involve approximately 10 - 15 participants in the design sprint, representing a broad geographic and sectoral spread of organisations, backgrounds and networks. Apply using the link above. 
-
-To provide an opportunity to find out more, and also invite a larger number of people to input, we are holding a series of ‘briefing and workshop sessions’ in September, both online and in-person.
-
-### Join a briefing and design workshop session 
-
-We're running a series of online and in-person workshops in September and October in support of the co-design cohort.
+We've run a series of online and in-person workshops in September and October in support of the co-design cohort.
 
 <div class="toolkit-events-container" style="display: flex; flex-direction: column; gap: 24px; margin: 25px 0 35px;">
 {% assign all_events = site.events | sort: 'date' | reverse  %}
