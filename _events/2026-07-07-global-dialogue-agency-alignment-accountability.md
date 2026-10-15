@@ -54,7 +54,7 @@ The conversations continued in our [Theory to Practice day at the UN Palais des 
 
 
 
-**The session was co-organised by:** [Citizens Track on AI](https://www.citizenstrack.org), [Geneva Graduate Institute](https://www.graduateinstitute.ch), [Global Citizens' Assembly](https://www.globalassembly.org), [Coalition for the UN We Need](https://c4unwn.org), [AI & Cybertech Governance ImPact Coalition](https://www.un.org/future-of-the-un/impact-coalitions), [AI & Equality](https://www.aiandequality.org), [Women at the Table](https://www.womenatthetable.net), [Ada Lovelace Institute](https://www.adalovelaceinstitute.org), [University of Sheffield Centre for Machine Intelligence](https://www.sheffield.ac.uk/cmi), [Multistakeholder Approaches to Participation in AI Governance (MAP-AI)](https://www.map-ai.org), [Connected by Data](https://connectedbydata.org), [Iswe Foundation](https://www.iswe.org)
+**The session was co-organised by:** [Citizens Track on AI](https://www.citizens-track.org), [Geneva Graduate Institute](https://www.graduateinstitute.ch), [Global Citizens' Assembly](https://www.globalassembly.org), [Coalition for the UN We Need](https://c4unwn.org), [AI & Cybertech Governance ImPact Coalition](https://www.un.org/future-of-the-un/impact-coalitions), [AI & Equality](https://www.aiandequality.org), [Women at the Table](https://www.womenatthetable.net), [Ada Lovelace Institute](https://www.adalovelaceinstitute.org), [University of Sheffield Centre for Machine Intelligence](https://www.sheffield.ac.uk/cmi), [Multistakeholder Approaches to Participation in AI Governance (MAP-AI)](https://www.map-ai.org), [Connected by Data](https://connectedbydata.org), [Iswe Foundation](https://www.iswe.org)
 
 
 ## Outline Agenda 

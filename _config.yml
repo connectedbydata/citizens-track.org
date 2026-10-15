@@ -1,6 +1,6 @@
 # Site settings
 title: "Citizens' Track on AI"
-email: contact@citizenstrack.org
+email: contact@citizens-track.org
 description: Join the campaign for a future of AI shaped by us all.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
