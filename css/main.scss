@@ -33,17 +33,28 @@ $base-font-family: Helvetica, Arial, sans-serif;
 //     }
 // }
 
-// Brand Colors matching brand.pdf
-$brand-dark: #242a38;         // Deep Dark Slate Blue (Cover/Page 2 Background)
-$brand-accent: #89afad;       // Sage Green / Light Teal (Cover details/Lines/Headers)
-$brand-accent-dark: #4c7371;  // Accessible Dark Sage Teal for links on light backgrounds (WCAG AA compliant)
-$brand-light: #fdfcfc;        // Warm Near-White (Page 3/4 Background)
-$text-dark: #242a38;          // Charcoal Navy for high readability on light backgrounds
-$text-light: #ffffff;         // White for dark backgrounds
-$brand-accent-light: #edf3f2;  // Light soft sage tone for card backgrounds
+// Citizens' Track AI — Official Brand Design Tokens & Palette (Oct 2026)
+$ct-cerulean: #40a9ff;        // Cerulean (Primary Accent / //AI Sub-brand / Vibrant Highlight)
+$ct-fjord: #00447c;           // Fjord Blue (Primary Authoritative Blue / Hero / Dark Surfaces)
+$ct-spring-wood: #efeee5;     // Spring Wood (Warm Neutral / Default Light Canvas)
+$ct-ebony-clay: #242c36;      // Ebony Clay (Primary Typography / Deep Charcoal Slate)
 
-$theme-primary: $brand-accent;
-$theme-dark: $brand-dark;
+$ct-coral: #ff5f6f;           // Secondary Coral
+$ct-reef-teal: #00d8b4;       // Secondary Reef Teal
+$ct-goldenrod: #ffc440;       // Secondary Goldenrod
+$ct-deep-redwood: #7c0018;    // Secondary Deep Redwood
+
+// SCSS Mappings
+$brand-dark: $ct-fjord;
+$brand-accent: $ct-cerulean;
+$brand-accent-dark: $ct-fjord; // WCAG AAA compliant (7.4:1 contrast) on Spring Wood and White
+$brand-light: $ct-spring-wood;
+$text-dark: $ct-ebony-clay;
+$text-light: #ffffff;
+$brand-accent-light: #f8f7f2; // Subtle warm neutral surface for elevated cards
+
+$theme-primary: $ct-cerulean;
+$theme-dark: $ct-fjord;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -127,7 +138,7 @@ header a,
     }
     
     .update-date {
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         color: $brand-accent;
         font-size: 13px;
         font-weight: 600;
@@ -163,7 +174,7 @@ header a,
     }
     
     .read-more {
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         font-weight: 700;
         font-size: 13px;
         text-transform: uppercase;
@@ -190,7 +201,7 @@ header a,
     display: inline-block;
     background-color: #e2eeec;
     color: #1a4442;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Parkinsans', Arial, sans-serif;
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
@@ -207,7 +218,7 @@ header a,
     align-items: center;
     background-color: #dcebe8;
     color: #133e3c;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Parkinsans', Arial, sans-serif;
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
@@ -223,7 +234,7 @@ header a,
     display: inline-block;
     background-color: rgba($brand-accent, 0.25);
     color: #ffffff;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Parkinsans', Arial, sans-serif;
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
@@ -284,7 +295,7 @@ header a,
     
     .event-month {
         display: block;
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         font-size: 11px;
         font-weight: 700;
         text-transform: uppercase;
@@ -295,7 +306,7 @@ header a,
     
     .event-day {
         display: block;
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         font-size: 22px;
         font-weight: 800;
         line-height: 1.1;
@@ -308,7 +319,7 @@ header a,
     gap: 4px;
     
     .event-full-date {
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         font-size: 13px;
         font-weight: 600;
         color: #555;
@@ -321,7 +332,7 @@ header a,
     }
 
     .event-time-tag {
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         font-size: 13px;
         font-weight: 600;
         color: #555;
@@ -334,7 +345,7 @@ header a,
     }
     
     .event-location-tag {
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         font-size: 13px;
         font-weight: 600;
         color: $brand-accent-dark;
@@ -388,7 +399,7 @@ header a,
     border-top: 1px solid rgba(0, 0, 0, 0.05);
     
     .event-details-link {
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         font-weight: 700;
         font-size: 13px;
         text-transform: uppercase;
@@ -441,12 +452,12 @@ header a,
     gap: 12px;
     padding: 12px 20px;
     margin-bottom: 35px;
-    background-color: #edf3f2;
+    background-color: #f8f7f2;
     border-left: 4px solid $brand-accent;
     border-radius: 8px;
     font-size: 15px;
     color: #475467;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Parkinsans', Arial, sans-serif;
     line-height: 1.5;
 
     i.fa-calendar-check-o {
@@ -475,7 +486,7 @@ header a,
 
 // Event Detail Meta Card
 .event-meta-card {
-    background-color: #edf3f2;
+    background-color: #f8f7f2;
     border: 1px solid rgba($brand-accent, 0.35);
     border-radius: 16px;
     padding: 22px 28px;
@@ -528,7 +539,7 @@ header a,
 }
 
 .event-meta-label {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Parkinsans', Arial, sans-serif;
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
@@ -538,7 +549,7 @@ header a,
 }
 
 .event-meta-value {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Parkinsans', Arial, sans-serif;
     font-size: 15px;
     font-weight: 600;
     color: $brand-dark;
@@ -557,7 +568,7 @@ header a,
 
     .event-cta-btn {
         padding: 12px 24px;
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         font-weight: 700;
         font-size: 13px;
         text-transform: uppercase;
@@ -604,7 +615,7 @@ header a,
     }
     
     .update-meta {
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         color: $brand-accent;
         font-size: 13px;
         font-weight: 600;
@@ -801,7 +812,7 @@ header.short-header {
         max-width: 100%;
         margin: 30px 0;
         border-collapse: collapse;
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         font-size: 15px;
         color: $text-dark;
         border-bottom: 3px solid $brand-dark;
@@ -912,7 +923,7 @@ header.short-header {
 
 // Light "View all" toggle link under "Supporters" heading
 .view-all-partners-toggle-top {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Parkinsans', Arial, sans-serif;
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1013,7 +1024,7 @@ header.short-header {
     }
 
     .modal-title {
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         font-weight: 800;
         font-size: 24px;
         color: white;
@@ -1044,7 +1055,7 @@ header.short-header {
     }
 
     label {
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         color: rgba(white, 0.7);
         font-size: 13px;
         font-weight: 600;
@@ -1061,7 +1072,7 @@ header.short-header {
         color: white;
         height: auto;
         padding: 12px 16px;
-        font-family: 'Inter', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         font-size: 15px;
         transition: all 0.3s ease;
         box-shadow: none;
@@ -1080,7 +1091,7 @@ header.short-header {
 
     .keyboard-tray-toggle {
         color: $brand-accent;
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         font-weight: 700;
         font-size: 15px;
         cursor: pointer;
@@ -1117,7 +1128,7 @@ header.short-header {
     }
 
     .involvement-toggle {
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         font-weight: 700;
         font-size: 14px;
         color: white !important;
@@ -1170,7 +1181,7 @@ header.short-header {
 
         label {
             color: rgba(white, 0.85);
-            font-family: 'Inter', sans-serif;
+            font-family: 'Parkinsans', Arial, sans-serif;
             font-size: 14px;
             font-weight: 400;
             text-transform: none;
@@ -1197,7 +1208,7 @@ header.short-header {
             color: rgba(white, 0.55);
             margin-bottom: 0;
             text-align: left;
-            font-family: 'Inter', sans-serif;
+            font-family: 'Parkinsans', Arial, sans-serif;
         }
 
         a {
@@ -1232,7 +1243,7 @@ header.short-header {
     animation: fadeInUpMessage 0.5s ease forwards;
 
     h3 {
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         font-weight: 700;
         font-size: 24px;
         margin-bottom: 12px;
@@ -1260,7 +1271,7 @@ header.short-header {
 // simple-keyboard overrides matching the slate-teal theme
 .simple-keyboard {
     background-color: transparent !important;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Parkinsans', Arial, sans-serif;
     
     .hg-button {
         background-color: rgba(white, 0.05) !important;
@@ -1315,7 +1326,7 @@ header.short-header {
     }
     
     figcaption {
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         font-size: 14px;
         line-height: 1.6;
         color: #555;
@@ -1407,7 +1418,7 @@ header.short-header {
     border: 1px solid rgba(137, 175, 173, 0.25);
     border-radius: 16px;
     padding: 25px;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Parkinsans', Arial, sans-serif;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01), 0 10px 20px rgba(0, 0, 0, 0.02);
 }
 
@@ -1469,16 +1480,16 @@ header.short-header {
     word-wrap: break-word;
     
     &:hover {
-        color: #4c7371 !important;
+        color: #00447c !important;
         border-left-color: rgba(137, 175, 173, 0.5) !important;
         padding-left: 14px !important;
         text-decoration: none;
     }
     
     &.active {
-        color: #4c7371 !important;
+        color: #00447c !important;
         font-weight: 700 !important;
-        border-left-color: #4c7371 !important;
+        border-left-color: #00447c !important;
         padding-left: 12px !important;
     }
 }
@@ -1528,7 +1539,7 @@ header.short-header {
         line-height: 1.5;
         
         a {
-            color: #4c7371;
+            color: #00447c;
             text-decoration: underline;
             font-weight: 500;
             
@@ -1590,7 +1601,7 @@ header.short-header {
     }
     
     a {
-        color: rgba(#4c7371, 0.85);
+        color: rgba(#00447c, 0.85);
         text-decoration: underline;
         
         &:hover {
@@ -1602,7 +1613,7 @@ header.short-header {
         text-decoration: none;
         margin-left: 4px;
         font-size: 12px;
-        color: #4c7371;
+        color: #00447c;
         opacity: 0.6;
         display: inline-block;
         transition: opacity 0.2s ease;
@@ -1625,7 +1636,7 @@ header.short-header {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Parkinsans', Arial, sans-serif;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01), 0 10px 20px rgba(0, 0, 0, 0.02);
 
     .download-text-content {
@@ -1665,7 +1676,7 @@ header.short-header {
         letter-spacing: 0.5px;
         text-decoration: none !important;
         transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 
         i {
@@ -1789,7 +1800,7 @@ header.short-header {
         border: 1px solid rgba($brand-accent, 0.4);
         padding: 4px 12px;
         border-radius: 20px;
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         font-size: 11px;
         font-weight: 700;
         text-transform: uppercase;
@@ -1798,7 +1809,7 @@ header.short-header {
     }
 
     .cta-heading {
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         font-size: 24px;
         font-weight: 700;
         color: #ffffff;
@@ -1853,7 +1864,7 @@ header.short-header {
         .btn-apply {
             background-color: $brand-accent;
             color: $brand-dark !important;
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Parkinsans', Arial, sans-serif;
             font-weight: 800;
             font-size: 13px;
             text-transform: uppercase;
@@ -1901,7 +1912,7 @@ header.short-header {
         flex: 1 1 300px;
 
         h4 {
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Parkinsans', Arial, sans-serif;
             font-size: 18px;
             font-weight: 700;
             color: $brand-dark;
@@ -1919,7 +1930,7 @@ header.short-header {
     .btn-secondary-action {
         border: 2px solid $brand-accent;
         color: $brand-accent-dark !important;
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Parkinsans', Arial, sans-serif;
         font-weight: 700;
         font-size: 12px;
         text-transform: uppercase;
@@ -1965,7 +1976,7 @@ header.short-header {
             align-items: center;
 
             a {
-                font-family: 'Outfit', sans-serif;
+                font-family: 'Parkinsans', Arial, sans-serif;
                 font-weight: 600;
                 font-size: 14px;
                 color: $brand-dark;
@@ -2073,7 +2084,7 @@ header.short-header {
             justify-content: center;
 
             .supporter-name {
-                font-family: 'Outfit', sans-serif;
+                font-family: 'Parkinsans', Arial, sans-serif;
                 font-size: 15px;
                 font-weight: 600;
                 line-height: 1.4;
@@ -2114,7 +2125,7 @@ header.short-header {
         }
 
         .supporter-directory-title {
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Parkinsans', Arial, sans-serif;
             font-size: 22px;
             font-weight: 700;
             color: $brand-dark;
@@ -2168,7 +2179,7 @@ header.short-header {
 
     // Bottom CTA Box
     .supporter-cta-box {
-        background: linear-gradient(135deg, #edf3f2 0%, #ffffff 100%);
+        background: linear-gradient(135deg, #f8f7f2 0%, #ffffff 100%);
         border: 1px solid rgba($brand-accent, 0.4);
         border-radius: 16px;
         padding: 35px 30px;
@@ -2235,7 +2246,7 @@ header.short-header {
             }
 
             .stat-number {
-                font-family: 'Outfit', sans-serif;
+                font-family: 'Parkinsans', Arial, sans-serif;
                 font-size: 32px;
                 font-weight: 800;
                 color: $brand-dark;
@@ -2248,7 +2259,7 @@ header.short-header {
             }
 
             .stat-label {
-                font-family: 'Outfit', sans-serif;
+                font-family: 'Parkinsans', Arial, sans-serif;
                 font-size: 13px;
                 font-weight: 700;
                 text-transform: uppercase;
@@ -2275,7 +2286,7 @@ header.short-header {
             display: inline-block;
             background-color: $brand-accent-light;
             color: $brand-accent-dark;
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Parkinsans', Arial, sans-serif;
             font-size: 12px;
             font-weight: 700;
             text-transform: uppercase;
@@ -2287,7 +2298,7 @@ header.short-header {
         }
 
         .history-section-title {
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Parkinsans', Arial, sans-serif;
             font-size: 28px;
             font-weight: 800;
             color: $brand-dark;
@@ -2439,7 +2450,7 @@ header.short-header {
                 border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 
                 .timeline-date-tag {
-                    font-family: 'Outfit', sans-serif;
+                    font-family: 'Parkinsans', Arial, sans-serif;
                     font-size: 13px;
                     font-weight: 700;
                     color: $brand-accent-dark;
@@ -2452,7 +2463,7 @@ header.short-header {
                 }
 
                 .timeline-phase-pill {
-                    font-family: 'Outfit', sans-serif;
+                    font-family: 'Parkinsans', Arial, sans-serif;
                     font-size: 11px;
                     font-weight: 700;
                     text-transform: uppercase;
@@ -2462,7 +2473,7 @@ header.short-header {
             }
 
             .timeline-card-title {
-                font-family: 'Outfit', sans-serif;
+                font-family: 'Parkinsans', Arial, sans-serif;
                 font-size: 21px;
                 font-weight: 700;
                 color: $brand-dark;
@@ -2485,7 +2496,7 @@ header.short-header {
                 margin-bottom: 18px;
 
                 .outcomes-title {
-                    font-family: 'Outfit', sans-serif;
+                    font-family: 'Parkinsans', Arial, sans-serif;
                     font-size: 12px;
                     font-weight: 700;
                     text-transform: uppercase;
@@ -2516,7 +2527,7 @@ header.short-header {
                 border-top: 1px dashed rgba(0, 0, 0, 0.08);
 
                 .partners-heading {
-                    font-family: 'Outfit', sans-serif;
+                    font-family: 'Parkinsans', Arial, sans-serif;
                     font-size: 11px;
                     font-weight: 700;
                     text-transform: uppercase;
@@ -2537,7 +2548,7 @@ header.short-header {
                         display: inline-flex;
                         align-items: center;
                         gap: 5px;
-                        background: #edf3f2;
+                        background: #f8f7f2;
                         color: $brand-dark;
                         font-size: 12px;
                         font-weight: 500;
@@ -2549,7 +2560,7 @@ header.short-header {
                         transition: all 0.2s ease;
 
                         &:hover {
-                            background: darken(#edf3f2, 4%);
+                            background: darken(#f8f7f2, 4%);
                             color: $brand-accent-dark;
                             text-decoration: none;
                             border-color: $brand-accent;
@@ -2571,7 +2582,7 @@ header.short-header {
                 margin-top: 16px;
 
                 .btn-timeline-action {
-                    font-family: 'Outfit', sans-serif;
+                    font-family: 'Parkinsans', Arial, sans-serif;
                     font-size: 12px;
                     font-weight: 700;
                     text-transform: uppercase;
@@ -2655,7 +2666,7 @@ header.short-header {
                 flex-grow: 1;
 
                 .deep-dive-subheading {
-                    font-family: 'Outfit', sans-serif;
+                    font-family: 'Parkinsans', Arial, sans-serif;
                     font-size: 12px;
                     font-weight: 700;
                     text-transform: uppercase;
@@ -2665,7 +2676,7 @@ header.short-header {
                 }
 
                 .deep-dive-title {
-                    font-family: 'Outfit', sans-serif;
+                    font-family: 'Parkinsans', Arial, sans-serif;
                     font-size: 24px;
                     font-weight: 700;
                     color: $brand-dark;
@@ -2688,7 +2699,7 @@ header.short-header {
             }
 
             h4 {
-                font-family: 'Outfit', sans-serif;
+                font-family: 'Parkinsans', Arial, sans-serif;
                 font-size: 18px;
                 font-weight: 700;
                 color: $brand-dark;
@@ -2707,7 +2718,7 @@ header.short-header {
             }
 
             .deep-dive-callout {
-                background: linear-gradient(135deg, #f3f8f7 0%, #edf3f2 100%);
+                background: linear-gradient(135deg, #f3f8f7 0%, #f8f7f2 100%);
                 border-left: 4px solid $brand-accent;
                 border-radius: 0 10px 10px 0;
                 padding: 18px 22px;
@@ -2752,7 +2763,7 @@ header.short-header {
                 }
 
                 .quote-author {
-                    font-family: 'Outfit', sans-serif;
+                    font-family: 'Parkinsans', Arial, sans-serif;
                     font-size: 13px;
                     font-weight: 600;
                     color: $brand-accent-dark;
@@ -2804,7 +2815,7 @@ header.short-header {
                 }
 
                 .matrix-title {
-                    font-family: 'Outfit', sans-serif;
+                    font-family: 'Parkinsans', Arial, sans-serif;
                     font-size: 17px;
                     font-weight: 700;
                     color: $brand-dark;
@@ -2879,7 +2890,7 @@ header.short-header {
             }
 
             .pub-type-badge {
-                font-family: 'Outfit', sans-serif;
+                font-family: 'Parkinsans', Arial, sans-serif;
                 font-size: 11px;
                 font-weight: 700;
                 text-transform: uppercase;
@@ -2889,7 +2900,7 @@ header.short-header {
             }
 
             .pub-title {
-                font-family: 'Outfit', sans-serif;
+                font-family: 'Parkinsans', Arial, sans-serif;
                 font-size: 17px;
                 font-weight: 700;
                 line-height: 1.35;
@@ -2922,7 +2933,7 @@ header.short-header {
                 border-top: 1px solid rgba(0, 0, 0, 0.05);
 
                 .pub-link-btn {
-                    font-family: 'Outfit', sans-serif;
+                    font-family: 'Parkinsans', Arial, sans-serif;
                     font-size: 11.5px;
                     font-weight: 700;
                     text-transform: uppercase;
@@ -2957,7 +2968,7 @@ header.short-header {
         }
 
         h3 {
-            font-family: 'Outfit', sans-serif;
+            font-family: 'Parkinsans', Arial, sans-serif;
             font-size: 26px;
             font-weight: 800;
             color: white;
@@ -2981,7 +2992,7 @@ header.short-header {
             .btn-cta-history {
                 padding: 12px 24px;
                 border-radius: 8px;
-                font-family: 'Outfit', sans-serif;
+                font-family: 'Parkinsans', Arial, sans-serif;
                 font-weight: 700;
                 font-size: 13px;
                 text-transform: uppercase;

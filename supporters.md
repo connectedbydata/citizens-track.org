@@ -5,7 +5,7 @@ permalink: /supporters/
 description: "Organizations, institutions, and networks supporting the Citizens' Track on AI."
 ---
 
-<section class="supporters-section" style="padding: 60px 0 100px; background-color: #fdfcfc;">
+<section class="supporters-section" style="padding: 60px 0 100px; background-color: #efeee5;">
     <div class="container">
         <!-- Intro & Call to action -->
         <div class="row">
@@ -63,7 +63,7 @@ description: "Organizations, institutions, and networks supporting the Citizens'
             <div class="col-lg-10 col-lg-offset-1">
                 <div class="supporter-directory-card">
                     <h2 class="supporter-directory-title">
-                        <i class="fa fa-list-ul" style="color: #89afad; margin-right: 10px;"></i>
+                        <i class="fa fa-list-ul" style="color: #00447c; margin-right: 10px;"></i>
                         All Supporters
                     </h2>
                     <hr class="supporter-directory-divider">
@@ -114,7 +114,7 @@ description: "Organizations, institutions, and networks supporting the Citizens'
         <div class="row" style="margin-top: 60px;">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <div class="supporter-cta-box">
-                    <h3 style="font-family: 'Outfit', sans-serif; font-weight: 700; color: #242a38; margin-top: 0; margin-bottom: 12px;">
+                    <h3 style="font-family: 'Parkinsans', Arial, sans-serif; font-weight: 700; color: #242a38; margin-top: 0; margin-bottom: 12px;">
                         Join Our Network of Supporters
                     </h3>
                     <p style="color: #4a5568; margin-bottom: 20px; font-size: 15px;">

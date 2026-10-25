@@ -16,6 +16,8 @@
         content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     {% if page.image %}
     <meta property="og:image" content="{{ page.image | absolute_url }}">
+    {% else %}
+    <meta property="og:image" content="{{ '/assets/brand/images/logos/logo-wide-positive.png' | absolute_url }}">
     {% endif %}
 
     <!-- Twitter -->
@@ -26,21 +28,30 @@
         content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     {% if page.image %}
     <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+    {% else %}
+    <meta name="twitter:image" content="{{ '/assets/brand/images/logos/logo-wide-positive.png' | absolute_url }}">
     {% endif %}
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
+    <link rel="alternate icon" type="image/png" href="{{ '/favicon.png' | relative_url }}">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="{{ '/css/bootstrap.min.css' | relative_url }}" type="text/css">
 
-    <!-- Custom Fonts -->
+    <!-- Custom Fonts: Parkinsans (Brand Typography) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="{{ '/font-awesome/css/font-awesome.min.css' | relative_url }}" type="text/css">
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="{{ '/css/animate.min.css' | relative_url }}" type="text/css">
+
+    <!-- Brand Design Tokens -->
+    <link rel="stylesheet" href="{{ '/css/brand-tokens.css' | relative_url }}" type="text/css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}" type="text/css">

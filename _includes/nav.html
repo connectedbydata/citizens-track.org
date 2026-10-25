@@ -10,7 +10,11 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand {% if page.layout == 'front' %}page-scroll{% endif %}"
-                href="{% if page.layout == 'front' %}#page-top{% else %}{{ '/' | relative_url }}{% endif %}">{{site.title}}</a>
+                href="{% if page.layout == 'front' %}#page-top{% else %}{{ '/' | relative_url }}{% endif %}"
+                title="{{ site.title }}">
+                <img src="{{ '/assets/brand/images/logos/logo-wide-positive.svg' | relative_url }}" class="brand-logo brand-logo-dark" alt="{{ site.title }}">
+                <img src="{{ '/assets/brand/images/logos/logo-wide-negative.svg' | relative_url }}" class="brand-logo brand-logo-light" alt="{{ site.title }}">
+            </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

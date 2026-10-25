@@ -15,7 +15,7 @@
                             <span class="event-tag-light{% if page.writeup %} writeup-badge{% endif %}">{% if page.writeup %}Event Write-up{% else %}Event{% endif %}</span>
                         </div>
                         <div class="news-date"
-                            style="color: {{ site.brand-accent | default: '#89afad' }}; font-family: 'Outfit', sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 15px;">
+                            style="color: {{ site.brand-accent | default: '#40a9ff' }}; font-family: 'Parkinsans', Arial, sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 15px;">
                             {{ page.date | date: "%B %d, %Y" }}
                         </div>
                         <h1 class="header-title-stacked" style="font-size: 38px; line-height: 1.2; text-shadow: none;">
@@ -27,7 +27,7 @@
         </div>
     </header>
 
-    <article class="post-content-section" style="padding: 40px 0 80px; background-color: #fdfcfc;">
+    <article class="post-content-section" style="padding: 40px 0 80px; background-color: #efeee5;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -45,8 +45,8 @@
                         <i class="fa fa-calendar-check-o"></i>
                         <div class="event-held-meta">
                             <span><strong>Event took place:</strong> {{ page.date | date: "%A, %B %d, %Y" }}</span>
-                            {% if event_time %}<span>&bull; <i class="fa fa-clock-o" style="color: #89afad; margin-right: 2px;"></i> {{ event_time }}</span>{% endif %}
-                            {% if page.location %}<span>&bull; <i class="fa fa-map-marker" style="color: #89afad; margin-right: 2px;"></i> {{ page.location }}</span>{% endif %}
+                            {% if event_time %}<span>&bull; <i class="fa fa-clock-o" style="color: #00447c; margin-right: 2px;"></i> {{ event_time }}</span>{% endif %}
+                            {% if page.location %}<span>&bull; <i class="fa fa-map-marker" style="color: #00447c; margin-right: 2px;"></i> {{ page.location }}</span>{% endif %}
                         </div>
                     </div>
                     {% elsif page.location or page.registration_link or page.date or event_time %}
@@ -106,12 +106,12 @@
                     {% unless page.writeup %}
                     {% if page.registration_link %}
                     <div class="event-bottom-cta"
-                        style="margin: 45px 0 35px; padding: 28px; background: linear-gradient(135deg, #edf3f2 0%, #f4f8f7 100%); border-radius: 16px; text-align: center; border: 1px solid rgba(137, 175, 173, 0.35); box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+                        style="margin: 45px 0 35px; padding: 28px; background: #ffffff; border-radius: 16px; text-align: center; border: 1px solid #dcd9cd; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
                         <h4
-                            style="margin-top: 0; margin-bottom: 8px; font-weight: 700; font-size: 19px; color: #242a38; font-family: 'Outfit', sans-serif;">
+                            style="margin-top: 0; margin-bottom: 8px; font-weight: 700; font-size: 19px; color: #242c36; font-family: 'Parkinsans', Arial, sans-serif;">
                             Interested in joining?</h4>
                         <a href="{{ page.registration_link }}" target="_blank" class="btn btn-primary"
-                            style="padding: 11px 26px; font-weight: 700; font-family: 'Outfit', sans-serif; border-radius: 8px; text-transform: uppercase; letter-spacing: 0.6px; font-size: 13px; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                            style="padding: 11px 26px; font-weight: 700; font-family: 'Parkinsans', Arial, sans-serif; border-radius: 8px; text-transform: uppercase; letter-spacing: 0.6px; font-size: 13px; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
                             <i class="fa fa-ticket"></i> Register Now <i class="fa fa-external-link"
                                 style="font-size: 11px; opacity: 0.85;"></i>
                         </a>

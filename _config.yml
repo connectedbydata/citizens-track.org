@@ -8,6 +8,11 @@ url: "" # the base hostname & protocol for your site
 twitter_username:
 github_username:
 
+brand-primary: "#00447c"
+brand-accent: "#40a9ff"
+brand-dark: "#00447c"
+brand-light: "#efeee5"
+
 # Build settings
 markdown: kramdown
 future: true

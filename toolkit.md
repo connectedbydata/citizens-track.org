@@ -117,7 +117,7 @@ We've run a series of online and in-person workshops in September and October in
             <i class="fa fa-ticket"></i> Register
           </a>
           {% else %}
-          <span class="text-muted" style="font-size: 13px; font-family: 'Outfit', sans-serif;">
+          <span class="text-muted" style="font-size: 13px; font-family: 'Parkinsans', Arial, sans-serif;">
             <i class="fa fa-clock-o"></i> Registration coming soon
           </span>
         {% endif %}

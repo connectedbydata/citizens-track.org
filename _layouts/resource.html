@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
                         <div class="news-date"
-                            style="color: {{ site.brand-accent | default: '#89afad' }}; font-family: 'Outfit', sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 15px;">
+                            style="color: {{ site.brand-accent | default: '#40a9ff' }}; font-family: 'Parkinsans', Arial, sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 15px;">
                             Resource &bull; {{ page.date | date: "%B %d, %Y" }}
                         </div>
                         <h1 class="header-title-stacked" style="font-size: 38px; line-height: 1.2; text-shadow: none;">
@@ -24,7 +24,7 @@
         </div>
     </header>
 
-    <article class="post-content-section" style="padding: 80px 0; background-color: #fdfcfc;">
+    <article class="post-content-section" style="padding: 80px 0; background-color: #efeee5;">
         <div class="container">
             {% assign has_metadata = false %}
             {% if page.resource_url or page.doi or page.authors or page.contributors %}
@@ -73,17 +73,17 @@
                 <div class="col-md-4 col-lg-4">
                     <!-- Concise metadata box at the top (not sticky) -->
                     <div class="resource-meta-card"
-                        style="background-color: #edf3f2; border: 1px solid rgba(137, 175, 173, 0.25); border-radius: 16px; padding: 20px; margin-bottom: 25px; font-family: 'Outfit', sans-serif; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01), 0 10px 20px rgba(0, 0, 0, 0.02); font-size: 14px; color: #242a38; line-height: 1.6;">
+                        style="background-color: #ffffff; border: 1px solid #dcd9cd; border-radius: 16px; padding: 20px; margin-bottom: 25px; font-family: 'Parkinsans', Arial, sans-serif; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.01), 0 10px 20px rgba(0, 0, 0, 0.02); font-size: 14px; color: #242c36; line-height: 1.6;">
                         <div class="meta-item" style="margin-bottom: 10px;">
                             <strong
-                                style="color: #4c7371; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; display: inline-block; margin-right: 5px;">Published:</strong>
+                                style="color: #00447c; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; display: inline-block; margin-right: 5px;">Published:</strong>
                             <span>{{ page.date | date: "%B %d, %Y" }}</span>
                         </div>
 
                         {% if page.authors and page.authors.size > 0 %}
                         <div class="meta-item" style="margin-bottom: 10px;">
                             <strong
-                                style="color: #4c7371; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; display: inline-block; margin-right: 5px;">{%
+                                style="color: #00447c; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; display: inline-block; margin-right: 5px;">{%
                                 if page.authors.size > 1 %}Authors{% else %}Author{% endif %}:</strong>
                             <span>{{ page.authors | join: ", " }}</span>
                         </div>
@@ -92,7 +92,7 @@
                         {% if page.contributors and page.contributors.size > 0 %}
                         <div class="meta-item" style="margin-bottom: 10px;">
                             <strong
-                                style="color: #4c7371; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; display: inline-block; margin-right: 5px;">{%
+                                style="color: #00447c; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; display: inline-block; margin-right: 5px;">{%
                                 if page.contributors.size > 1 %}Contributors{% else %}Contributor{% endif %}:</strong>
                             <span>{{ page.contributors | join: ", " }}</span>
                         </div>
@@ -101,10 +101,10 @@
                         {% if page.doi %}
                         <div class="meta-item" style="margin-bottom: 10px;">
                             <strong
-                                style="color: #4c7371; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; display: inline-block; margin-right: 5px;">DOI:</strong>
+                                style="color: #00447c; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; display: inline-block; margin-right: 5px;">DOI:</strong>
                             <span style="word-break: break-all;">
                                 <a href="https://doi.org/{{ page.doi }}" target="_blank"
-                                    style="color: #4c7371; font-weight: 500; text-decoration: underline;">
+                                    style="color: #00447c; font-weight: 500; text-decoration: underline;">
                                     {{ page.doi }}
                                 </a>
                             </span>

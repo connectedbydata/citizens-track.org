@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json.schemastore.org/design-tokens.json",
+  "name": "Citizens' Track on AI Brand Tokens",
+  "version": "1.0.0",
+  "updated": "2026-10",
+  "colors": {
+    "primary": {
+      "cerulean": {
+        "hex": "#40A9FF",
+        "rgb": { "r": 64, "g": 169, "b": 255 },
+        "cmyk": { "c": 75, "m": 34, "y": 0, "k": 0 },
+        "hsl": "hsl(207, 100%, 63%)",
+        "role": "Brand accent, //AI sub-brand highlight, primary active links, digital interactive states"
+      },
+      "fjord": {
+        "hex": "#00447C",
+        "rgb": { "r": 0, "g": 68, "b": 124 },
+        "cmyk": { "c": 100, "m": 45, "y": 0, "k": 51 },
+        "hsl": "hsl(207, 100%, 24%)",
+        "role": "Primary dark brand color, hero card backgrounds, authoritative headers"
+      },
+      "springWood": {
+        "hex": "#EFEEE5",
+        "rgb": { "r": 239, "g": 238, "b": 229 },
+        "cmyk": { "c": 0, "m": 0, "y": 4, "k": 6 },
+        "hsl": "hsl(54, 25%, 92%)",
+        "role": "Default light page background, soft surface fills, neutral base"
+      },
+      "ebonyClay": {
+        "hex": "#242C36",
+        "rgb": { "r": 36, "g": 44, "b": 54 },
+        "cmyk": { "c": 33, "m": 19, "y": 0, "k": 79 },
+        "hsl": "hsl(213, 20%, 18%)",
+        "role": "Primary typography, dark theme background, positive logo text/emblem"
+      }
+    },
+    "secondary": {
+      "coral": {
+        "hex": "#FF5F6F",
+        "rgb": { "r": 255, "g": 95, "b": 111 },
+        "cmyk": { "c": 0, "m": 63, "y": 56, "k": 0 },
+        "hsl": "hsl(354, 100%, 69%)",
+        "role": "Attention, call-to-actions, urgent badge states, chart series"
+      },
+      "reefTeal": {
+        "hex": "#00D8B4",
+        "rgb": { "r": 0, "g": 216, "b": 180 },
+        "cmyk": { "c": 100, "m": 0, "y": 17, "k": 15 },
+        "hsl": "hsl(170, 100%, 42%)",
+        "role": "Success metrics, data accents, positive milestones"
+      },
+      "goldenrod": {
+        "hex": "#FFC440",
+        "rgb": { "r": 255, "g": 196, "b": 64 },
+        "cmyk": { "c": 0, "m": 23, "y": 75, "k": 0 },
+        "hsl": "hsl(41, 100%, 63%)",
+        "role": "Highlights, alert accents, progress badges, warm emphasis"
+      },
+      "deepRedwood": {
+        "hex": "#7C0018",
+        "rgb": { "r": 124, "g": 0, "b": 24 },
+        "cmyk": { "c": 0, "m": 100, "y": 81, "k": 51 },
+        "hsl": "hsl(348, 100%, 24%)",
+        "role": "High-contrast dark red, critical emphasis, deep chart segment"
+      }
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "primary": "Parkinsans, Arial, sans-serif",
+      "fallback": "Arial, sans-serif"
+    },
+    "googleFontUrl": "https://fonts.googleapis.com/css2?family=Parkinsans:wght@300;400;500;600;700;800&display=swap",
+    "weights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700,
+      "extrabold": 800
+    },
+    "rules": {
+      "body": "Parkinsans Regular (400)",
+      "headings": "Parkinsans SemiBold (600) or Bold (700)",
+      "stats": "Parkinsans Bold (700)",
+      "minPrintSizePt": 10,
+      "minWebSizePx": 14
+    }
+  },
+  "project": {
+    "name": "Citizens' Track on AI",
+    "approvedAbbreviations": ["CT//AI", "CTAI"],
+    "forbiddenNames": ["Citizens' Track AI", "Citizens' Track", "AI Citizens' Track"],
+    "website": "https://citizens-track.org",
+    "subBrandSlashAngle": "Exact angle of 'A'",
+    "primaryVariant": "wide",
+    "compactVariant": "stacked",
+    "colourways": ["positive", "negative", "black", "white"],
+    "primaryColourway": "positive"
+  }
+}

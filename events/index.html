@@ -95,7 +95,7 @@ permalink: /events/
                             {% if event.writeup %}
                             <span class="writeup-tag">Event Write-up</span>
                             {% endif %}
-                            <span><i class="fa fa-calendar-check-o" style="color: #89afad; margin-right: 4px;"></i> {{ event.date | date: "%B %d, %Y" }}</span>
+                            <span><i class="fa fa-calendar-check-o" style="color: #00447c; margin-right: 4px;"></i> {{ event.date | date: "%B %d, %Y" }}</span>
                             {% assign past_event_time = event.time %}
                             {% if past_event_time == nil or past_event_time == "" %}
                                 {% assign past_time_check = event.date | date: "%H:%M" %}
@@ -105,11 +105,11 @@ permalink: /events/
                             {% endif %}
                             {% if past_event_time %}
                             <span style="opacity: 0.6;">&bull;</span>
-                            <span><i class="fa fa-clock-o" style="color: #89afad; margin-right: 4px;"></i> {{ past_event_time }}</span>
+                            <span><i class="fa fa-clock-o" style="color: #00447c; margin-right: 4px;"></i> {{ past_event_time }}</span>
                             {% endif %}
                             {% if event.location %}
                             <span style="opacity: 0.6;">&bull;</span>
-                            <span><i class="fa fa-map-marker" style="color: #89afad; margin-right: 4px;"></i> {{ event.location }}</span>
+                            <span><i class="fa fa-map-marker" style="color: #00447c; margin-right: 4px;"></i> {{ event.location }}</span>
                             {% endif %}
                             {% if event.author %}
                             <span style="opacity: 0.6;">&bull;</span>

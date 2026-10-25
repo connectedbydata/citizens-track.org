@@ -108,7 +108,7 @@ Thanks for reading this far. As a reminder, we're keen to make sure we have exam
 .gallery-thumb:focus-visible {
   transform: translateY(-3px);
   box-shadow: 0 6px 18px rgba(0,0,0,0.22);
-  outline: 2px solid #89afad;
+  outline: 2px solid #40a9ff;
   outline-offset: 2px;
 }
 .gallery-thumb img {

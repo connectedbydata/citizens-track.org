@@ -1,5 +1,10 @@
 <footer class="site-footer text-center">
     <div class="container">
+        <div class="footer-brand" style="margin-bottom: 20px;">
+            <a href="{{ '/' | relative_url }}" title="{{ site.title }}">
+                <img src="{{ '/assets/brand/images/logos/logo-wide-positive.svg' | relative_url }}" alt="{{ site.title }}" style="height: 34px; width: auto; opacity: 0.9;">
+            </a>
+        </div>
         <ul class="footer-nav-links list-inline">
             <li>
                 <a href="{% if page.layout == 'front' %}#subscribeModal{% else %}{{ '/' | relative_url }}#about{% endif %}" {% if page.layout == 'front' %}data-toggle="modal"{% endif %}>Subscribe</a>

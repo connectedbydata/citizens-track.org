@@ -93,10 +93,29 @@ aside {
         font-weight: 800;
         letter-spacing: 0.5px;
         text-transform: none;
+        display: inline-flex;
+        align-items: center;
+        padding: 10px 15px;
+        height: 50px;
+        
+        .brand-logo {
+            height: 32px;
+            width: auto;
+            max-width: 220px;
+            transition: opacity 0.2s ease;
+        }
+
         &:hover,
         &:focus {
             color: $brand-accent;
         }
+    }
+
+    .brand-logo-dark {
+        display: inline-block;
+    }
+    .brand-logo-light {
+        display: none;
     }
     
     .navbar-toggle {
@@ -155,12 +174,28 @@ aside {
                 color: white;
             }
         }
+
+        &:not(.affix) {
+            .brand-logo-dark {
+                display: none;
+            }
+            .brand-logo-light {
+                display: inline-block;
+            }
+        }
         
         &.affix {
-            background-color: rgba($brand-light, 0.9);
+            background-color: rgba($brand-light, 0.95);
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
             border-bottom: 1px solid rgba($brand-accent, 0.1);
+
+            .brand-logo-dark {
+                display: inline-block;
+            }
+            .brand-logo-light {
+                display: none;
+            }
             
             .navbar-header .navbar-brand {
                 color: $brand-dark;
@@ -187,7 +222,7 @@ header {
     position: relative;
     width: 100%;
     min-height: 100%;
-    background: radial-gradient(circle at 80% 30%, rgba($brand-accent, 0.1) 0%, rgba($brand-dark, 0) 60%), $brand-dark;
+    background: radial-gradient(circle at 80% 30%, rgba($brand-accent, 0.15) 0%, rgba($brand-dark, 0) 60%), $brand-dark;
     color: white;
     display: flex;
     align-items: center;
@@ -201,7 +236,7 @@ header {
     }
 
     .header-title-stacked {
-        font-family: 'Outfit', sans-serif;
+        @include sans-serif-font;
         font-size: 48px;
         font-weight: 800;
         line-height: 1.1;
@@ -217,7 +252,7 @@ header {
     }
 
     .header-subtitle {
-        font-family: 'Outfit', sans-serif;
+        @include sans-serif-font;
         font-size: 20px;
         font-weight: 500;
         color: $brand-accent;
@@ -314,8 +349,17 @@ header {
         font-size: 3.5em;
         transition: all 0.3s ease;
     }
+
+    .service-icon {
+        width: 64px;
+        height: 64px;
+        margin-bottom: 25px;
+        display: inline-block;
+        transition: transform 0.3s ease;
+    }
     
-    &:hover i.fa {
+    &:hover i.fa,
+    &:hover .service-icon {
         transform: scale(1.1);
     }
 

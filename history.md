@@ -489,7 +489,7 @@ description: "Explore the multi-year journey, foundational deliberative mileston
 
                     <!-- Publication 1: The Whitepaper (2026) -->
                     <div class="pub-card">
-                        <div class="pub-type-badge"><i class="fa fa-star" style="color: #89afad;"></i> Whitepaper · July 2026</div>
+                        <div class="pub-type-badge"><i class="fa fa-star" style="color: #00447c;"></i> Whitepaper · July 2026</div>
                         <h4 class="pub-title">
                             <a href="{{ '/2026/report/' | relative_url }}">A Citizens Track on AI Governance: Alignment, Agency and Accountability</a>
                         </h4>
@@ -512,7 +512,7 @@ description: "Explore the multi-year journey, foundational deliberative mileston
 
                     <!-- Publication 2: GCA AI Options Paper (2024) -->
                     <div class="pub-card">
-                        <div class="pub-type-badge"><i class="fa fa-globe" style="color: #89afad;"></i> Options Paper · Sept 2024</div>
+                        <div class="pub-type-badge"><i class="fa fa-globe" style="color: #00447c;"></i> Options Paper · Sept 2024</div>
                         <h4 class="pub-title">
                             <a href="https://connectedbydata.org/projects/2024-gca-ai" target="_blank" rel="noopener">Global Citizen Deliberation on AI: Options and Design Considerations</a>
                         </h4>
@@ -532,7 +532,7 @@ description: "Explore the multi-year journey, foundational deliberative mileston
 
                     <!-- Publication 3: People's Panel Final Report (2024) -->
                     <div class="pub-card">
-                        <div class="pub-type-badge"><i class="fa fa-users" style="color: #89afad;"></i> Report · Feb 2024</div>
+                        <div class="pub-type-badge"><i class="fa fa-users" style="color: #00447c;"></i> Report · Feb 2024</div>
                         <h4 class="pub-title">
                             <a href="https://connectedbydata.org/projects/2023-peoples-panel-on-ai" target="_blank" rel="noopener">Involving the Public in AI Policymaking: Experiences from the People's Panel</a>
                         </h4>
