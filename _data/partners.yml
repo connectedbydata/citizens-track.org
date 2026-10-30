@@ -131,3 +131,19 @@
 - name: "PresentIA"
   url: "https://www.presentia.ch"
   logo: "img/logo/presentia.png"
+
+- name: "Source Transitions"
+  url: "sourcetransitions.eu"
+  logo: "img/logo/source-transitions.png"
+
+- name: "GerateLab"
+  url: "https://www.geratelab.com/"
+  logo: "img/logo/geratelab.png"
+
+- name: "SOLACE asbl"
+  url: "https://www.solaceasbl.eu/"
+  logo: "img/logo/solace-asbl.png"
+
+- name: "Global Partnership for Sustainable Development Data"
+  url: "data4sdgs.org"
+  logo: "img/logo/global-partnership-for-sustainable-development-data.png"
