@@ -212,7 +212,7 @@ description: "Explore the multi-year journey, foundational deliberative mileston
                                 <ul>
                                     <li><strong>PAIRS 2025 (Edition 1):</strong> Established the global community of practice examining how public engagement shapes AI development and resistance.</li>
                                     <li><strong>PAIRS 2026 (Edition 2, New Delhi):</strong> Convened alongside the India AI Impact Summit, showcasing grassroots AI audits and frontline governance from Africa, Asia, and Latin America.</li>
-                                    <li>Created the <strong>PAVE Case Book</strong> (pave.pairs.site), documenting real-world participatory AI methods and impacts from every continent.</li>
+                                    <li>Created the <strong>PAVE Case Book</strong> (pave.pairs.site), documenting real-world participatory AI methods and impacts from every continent, drawing on the <a href="https://digitalgood.net/outputs/peoples-feelings-about-ai/">Public Voices in AI Evidence Review methodology</a>.</li>
                                 </ul>
                             </div>
                             <div class="timeline-partners-box">
