@@ -147,3 +147,11 @@
 - name: "Global Partnership for Sustainable Development Data"
   url: "data4sdgs.org"
   logo: "img/logo/global-partnership-for-sustainable-development-data.png"
+
+- name: "SOLACE (Stories of Local Active Citizen Engagement) ASBl"
+  url: "https://www.solaceasbl.eu/"
+  logo: "img/logo/solace-stories-of-local-active-citizen-engagement-asbl.png"
+
+- name: "CSO Segalor"
+  url: "https://scanarixmediagame.com/"
+  logo: "img/logo/cso-segalor.png"
