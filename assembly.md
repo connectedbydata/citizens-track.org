@@ -33,7 +33,7 @@ A **Community Assembly** is a participatory process that brings diverse people t
 
 **2. Explore CTAI’s support** Interested in organising an assembly but unsure where to start? Tell us about your community, your experience and the support you might need. We welcome expressions of interest from organisers who would benefit from our team’s technical support: training, facilitation guidance, assistance or financial support. 
 
-**3. Share an existing assembly or initiative** Have you already organised a community dialogue, deliberative process or assembly on AI? We would love to hear about it.  **CTAI** is also documenting existing experiences and lessons through the [**PAVE Case Book**](https://pave.team/case-studies), helping connect independent initiatives and their findings to broader **global AI governance discussions.** 
+**3. Share an existing assembly or initiative** Have you already organised a community dialogue, deliberative process or assembly on AI? We would love to hear about it.  **CTAI** is also documenting existing experiences and lessons through the [**PAVE Case Book**](https://pavecasebook.org/), helping connect independent initiatives and their findings to broader **global AI governance discussions.** 
 
 ## **What can CTAI offer?**
 

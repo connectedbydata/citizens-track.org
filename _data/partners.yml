@@ -21,6 +21,19 @@
   logo: "img/logo/cmi.png"
   invert_on_light: true
 
+- name: "UNU CPR"
+  url: "https://unu.edu/cpr/news/unu-cpr-expands-research-capacity-address-emerging-global-challenges"
+  logo: "img/logo/unu-cpr.svg"
+  invert_on_light: true
+
+- name: "Diplo Foundation"
+  url: "https://www.diplomacy.edu/"
+  logo: "img/logo/diplo.png"
+
+- name: "Coalition for the UN We Need (C4UN)"
+  url: "https://c4unwn.org/"
+  logo: "img/logo/coalition-for-the-un-we-need-c4un.png"
+
 - name: "Aapti Institute"
   url: "https://www.aapti.in"
   logo: "img/logo/aapti.png"
@@ -28,11 +41,6 @@
 - name: "NIYEL"
   url: "https://niyel.net/"
   logo: "img/logo/niyel.png"
-
-- name: "Coalition for the UN We Need (C4UN)"
-  url: "https://c4unwn.org/"
-  logo: "img/logo/coalition-for-the-un-we-need-c4un.png"
-
 
 - name: "Digital Empowerment Foundation"
   url: "https://www.defindia.org"
@@ -139,6 +147,7 @@
 - name: "GerateLab"
   url: "https://www.geratelab.com/"
   logo: "img/logo/geratelab.png"
+  invert_on_light: true
 
 - name: "SOLACE asbl"
   url: "https://www.solaceasbl.eu/"
@@ -155,3 +164,17 @@
 - name: "CSO Segalor"
   url: "https://scanarixmediagame.com/"
   logo: "img/logo/cso-segalor.png"
+  invert_on_light: true
+
+- name: "Centre for Environment Education"
+  url: "https://www.ceeindia.org/"
+  logo: "img/logo/cee-logo.png"
+
+- name: "i4Policy"
+  url: "https://i4policy.org/"
+  logo: "img/logo/i4policy.png"
+
+- name: "Spiral ─ Center of Technologies for Development"
+  url: "https://www.spiralctd.org"
+  logo: "img/logo/spiral-logo.png"
+  invert_on_light: true
