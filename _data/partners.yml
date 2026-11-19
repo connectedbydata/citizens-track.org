@@ -147,7 +147,7 @@
 - name: "GerateLab"
   url: "https://www.geratelab.com/"
   logo: "img/logo/geratelab.png"
-  invert_on_light: true
+  invsert_on_light: true
 
 - name: "SOLACE asbl"
   url: "https://www.solaceasbl.eu/"

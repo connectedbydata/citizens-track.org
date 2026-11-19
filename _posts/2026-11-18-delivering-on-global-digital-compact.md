@@ -7,6 +7,8 @@ author_url: "https://sheffield.ac.uk/spir/people/academic/susan-oman"
 excerpt: "PAVE and CTAI are not just aligned with the Compact’s vision, they are actively building the infrastructure required to make it work."
 ---
 
+> Guest post from Dr Susan Oman, University of Sheffield Centre for Machine Intelligence
+
 When world leaders adopted the **UN Global Digital Compact (GDC)** as part of the *Pact for the Future*, they set out an ambitious blueprint for an open, free, secure, and human-centric digital future. Yet as anyone working at the intersection of technology and society knows, high-level diplomatic agreements only matter if they translate into lived reality.
 
 Over the past year **Public AI Voice and Engagement (PAVE) Case Book** and the **Citizens’ Track on AI (CTAI)** have been working to bridge the gap between multilateral ambition and grassroots experience. Ahead of the Citizens’ Track featuring today in a Stakeholder Townhall meeting on "[Localizing the Global Digital Compact: From global frameworks to local implementation](https://lnkd.in/p/euEgP5_U)" we have taken the opportunity to reflect on the GDCs core objectives and cross-cutting principles. We realise that PAVE and CTAI are not just aligned with the Compact’s vision, they are actively building the infrastructure required to make it work.
@@ -25,7 +27,7 @@ The GDC’s very first objective is to **close all digital divides**, underpinne
 
 Too often, marginalised communities, particularly across the Global Majority, are treated as passive consumers of AI systems designed elsewhere, rather than active co-governors. PAVE’s current autumn and winter 2026 work program is explicitly designed to counter these systemic power asymmetries. We’ll be working through targeted data sprints, network snowballing, and regional partnerships. We are planning engagements around the Internet Governance Forum (IGF) in Nairobi to actively expand the evidence base from currently under-represented contexts, particularly global majority countries. 
 
-**Advancing Responsible, Equitable, and Interoperable Data Governance (Objective 4\)**
+### **Advancing Responsible, Equitable, and Interoperable Data Governance (Objective 4\)**
 
 The GDC calls for **responsible, equitable, and interoperable data governance approaches**, recognising that safe, open, and reusable data systems are essential for evidence-based policymaking and public benefit.
 
