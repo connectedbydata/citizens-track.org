@@ -16,7 +16,7 @@ There are a few quick calls for input and survey's linked in this months bulleti
 **In brief:**
 
 * **Do you want to run a community assembly on AI next year?** Fill in the [expression of interest by 15th Dec](https://citizens-track.org/assembly/)
-* **Planning to be at Geneva AI Summit in June 2027?** Tell us about plans for participatory activites and join a coordinated response to the Summit's call for input [by Friday 4th December](https://docs.google.com/forms/d/e/1FAIpQLScOotFkVrgIUsau-MGL8bpv5iXQAMj04s02RXfJrHto4vLaJg/viewform).
+* **Planning to be at Geneva AI Summit in June 2027?** Tell us about plans for participatory activities and join a coordinated response to the Summit's call for input [by Friday 4th December](https://docs.google.com/forms/d/e/1FAIpQLScOotFkVrgIUsau-MGL8bpv5iXQAMj04s02RXfJrHto4vLaJg/viewform).
 * **Do you know of public engagement on AI that should be in the PAVE Case Book?** Add it to the map [during the PAVE Team's latest research sprint](https://form.pavecasebook.org/)
 * **Get updates from the Community Assembly Toolkit co-design cohort** with a sneak preview of upcoming guidance and resources. 
 
@@ -24,7 +24,7 @@ There are a few quick calls for input and survey's linked in this months bulleti
 
 <img src="{{ '/assets/posts/eoi-call-nov26.png' | relative_url }}" alt="Expression of Interest Call Graphic" class="post-thumb-right">
 
-A community assembly on AI might bring together an inclusive group of 15 - 50 people for 4 - 8 hours to learn about and deliberate on the impacts of articial intelligence, and to identify local and global actions required for a better AI future. 
+A community assembly on AI might bring together an inclusive group of 15 - 50 people for 4 - 8 hours to learn about and deliberate on the impacts of artificial intelligence, and to identify local and global actions required for a better AI future. 
 
 In January, we will be launching a package of support for community assemblies on AI - including training, toolkits, and micro-grants. 
 
@@ -42,7 +42,7 @@ If your organisation is planning participation-focussed activities for the Genev
 
 ## Expanding the PAVE Case Book: share your inputs
 
-![PAVE Logo](/assets/posts/pave-logo.png)
+<img src="{{ '/assets/posts/pave-logo.png' | relative_url }}" alt="PAVE Logo" class="post-thumb-right">
 
 The Public AI Voice and Engagement (PAVE) Case Book is open for new suggestions and submissions, as Roshni, Isio and Kandy at the Ada Lovelace Institute get stuck into a new research sprint. 
 
@@ -109,6 +109,21 @@ The screenshots below give a sneak-preview of what's in store.
   </figure>
 </div>
 
+## CTAI at the Internet Governance Forum
+
+<img src="{{ '/assets/posts/igf-2026.png' | relative_url }}" alt="Internet Governance Forum Logo" class="post-thumb-right">
+
+The Citizens’ Track on AI will have a stand in the exhibition space at Internet Governance Forum in Nairobi, Kenya from 14th - 18th December - and Johnny, Susan and Octavia from the team will be there to share updates on our community assembly, evidence and policy work. 
+
+We’re also looking for volunteers to help on the PAVE/Citizens’ Track exhibition stand during the week, and would love to connect CTAI community members who will also be in Nairobi that week. Get in touch with contact@citizens-track.org if you will be there!
+
+## Other updates
+
+* The Citizens’ Track on AI is [featured in the latest edition of the Montreal AI Ethics Institute’s State of AI Ethics Report as Chapter 2.2](https://citizens-track.org/2026/11/10/saier-citizens-track.html)
+* CTAI partners in the USA have [extended their call for US-based Civic Hosts for community assemblies on AI until Monday November 23rd 9am PT](https://bloom-project.org/cohort/)
+* PAIRS, the Participatory AI Research and Practice Symposium (taking place online on 18th June, and in Geneva 19th June 2027) has [an open call for extended abstracts. Deadline 15th December.](https://pairs.site/2027/cfp)
+* Read [how PAVE and CTAI deliver on the UN Global Digital Compact](https://citizens-track.org/2026/11/18/delivering-on-global-digital-compact.html) in this guest post from Dr Susan Oman
+
 <script>
 (function() {
   var lightbox = document.getElementById('gallery-lightbox');
@@ -168,18 +183,3 @@ The screenshots below give a sneak-preview of what's in store.
   });
 })();
 </script>
-
-## CTAI at the Internet Governance Forum
-
-![Internet Governance Forum Logo](/assets/posts/igf-2026.png)
-
-The Citizens’ Track on AI will have a stand in the exhibition space at Internet Governance Forum in Nairobi, Kenya from 14th - 18th December - and Johnny, Susan and Octavia from the team will be there to share updates on our community assembly, evidence and policy work. 
-
-We’re also looking for volunteers to help on the PAVE/Citizens’ Track exhibition stand during the week, and would love to connect CTAI community members who will also be in Nairobi that week. Get in touch with contact@citizens-track.org if you will be there!
-
-## Other updates
-
-* The Citizens’ Track on AI is [featured in the latest edition of the Montreal AI Ethics Institute’s State of AI Ethics Report as Chapter 2.2](https://citizens-track.org/2026/11/10/saier-citizens-track.html)
-* CTAI partners in the USA have [extended their call for US-based Civic Hosts for community assemblies on AI until Monday November 23rd 9am PT](https://bloom-project.org/cohort/)
-* PAIRS, the Participatory AI Research and Practice Symposium (taking place online on 18th June, and in Geneva 19th June 2027) has [an open call for extended abstracts. Deadline 15th December.](https://pairs.site/2027/cfp)
-* Read [how PAVE and CTAI deliver on the UN Global Digital Compact](https://citizens-track.org/2026/11/18/delivering-on-global-digital-compact.html) in this guest post from Dr Susan Oman
