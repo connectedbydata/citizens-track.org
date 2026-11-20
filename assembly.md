@@ -4,6 +4,35 @@ title: "Open Call: Run a Community Assembly on AI"
 permalink: /assembly/
 ---
 
+<div class="toolkit-cta-card" style="margin-top: 40px;">
+  <div class="cta-badge">
+    <i class="fa fa-calendar-check-o" aria-hidden="true"></i> Deadline: December 15, 2026
+  </div>
+  <h3 class="cta-heading">Express your interest</h3>
+  <p class="cta-intro">
+    Whether you already have a community in mind, are looking for support to organise your first assembly, or want to share an existing initiative, <strong>we would love to hear from you</strong>. Complete our short Expression of Interest form to tell us about your organisation or initiative, where you work, and how you would like to get involved.
+  </p>
+  <div class="cta-highlights">
+    <div class="cta-highlight-item">
+      <i class="fa fa-clock-o" aria-hidden="true"></i>
+      <div><strong>Estimated time:</strong> 5–10 minutes</div>
+    </div>
+    <div class="cta-highlight-item">
+      <i class="fa fa-envelope-o" aria-hidden="true"></i>
+      <div><strong>Questions?</strong> <a href="mailto:contact@citizens-track.org" style="color: #40a9ff; text-decoration: underline;">contact@citizens-track.org</a></div>
+    </div>
+    <div class="cta-highlight-item">
+      <i class="fa fa-users" aria-hidden="true"></i>
+      <div><strong>Cohort 01:</strong> Assemblies running Jan – Apr 2027</div>
+    </div>
+  </div>
+  <div class="cta-action-area">
+    <a href="https://app.nocodb.com/nc/form/4bedca6e-32ac-4ed3-9b73-a5ddf97cc3d5?nc-theme=light" target="_blank" rel="noopener" class="btn-apply">
+      Expression of Interest Form <i class="fa fa-arrow-right" aria-hidden="true"></i>
+    </a>
+  </div>
+</div>
+
 ### Citizens’ Track on AI
 
 ---
